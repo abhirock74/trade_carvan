@@ -198,13 +198,13 @@ hr {
 }
 
 .div-8 {
-    margin-top: 6vw;
+    margin-top: 4vw;
     margin-left: 15vw;
 }
 
 .div-7 {
-    height: 30vw;
-
+    height: 35vw;
+    margin-top: 6vw;
     background-color: #00394D;
 }
 .butt{
@@ -273,4 +273,16 @@ hr {
         width: 24vw;
         height: 24vw;
      }
+=======
+
+.p-5 {
+    color: white;
+    font-size: 1.6vw;
+}
+
+.p-6 {
+    color: gray;
+    margin-top: -4vw;
+    text-align: center;
+>>>>>>> 05bc64215526679855f360d3b623093ae40b481d
 }

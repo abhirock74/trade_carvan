@@ -401,13 +401,11 @@ ul {
 
 
 /* Login Form CSS */
-}
+
 
 .register {
 	width: 100%;
-	background-image: url(../images/suvaidyam/login.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #077585;
 }
 
 .form {
@@ -419,7 +417,7 @@ ul {
 /* Logo */
 .register-logo {
 	width: 100%;
-	height: 13vw;
+	height: auto;
 }
 
 .register-logo-img {
@@ -427,6 +425,7 @@ ul {
 	height: auto;
 	margin-left: 40%;
 	margin-top: 3vw;
+	margin-bottom: 3vw;
 }
 
 /* form */
@@ -440,11 +439,14 @@ ul {
 	text-align: center;
 	font-weight: bold;
 }
+.buton-colorsem{
+	background-color:   rgba(64, 149, 223, 0.662);
+}
 
 /* contact */
 .register-contact {
 	width: 100%;
-	height: 6vw;
+	height: auto;
 }
 
 @media screen and (max-width: 1060px) {
