@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Trade Carvan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <style type="text/css">
+      :root { 
+        --para-font: 14px;
+        --form-font:16px;
+        --small-font:12px;
+        --small-font-plus-one:13px;
+        --mid-heading-font: 18px;
+        --big-form-font:20px;
+        --heading-font:24px;
+      }
+    </style>
+    <section class="before-header">
+      <div class="container-fluid">
+        <div class="before-header-row flex-box space-between item-center">
+          <div class="before-header-col font-col">
+            <p>FONT SIZE <a href="javascript:void(0)">-A</a> <a href="javascript:void(0)">A</a> <a href="javascript:void(0)">A+</a></p>
+          </div>
+          <div class="before-header-col">
+            <ul class="list-unstyled before-header-ul">
+              <li><a href="javascript:void(0)">BE A SUPPLIER</a></li>
+              <li><a href="javascript:void(0)">REGISTER</a></li>
+              <li><a href="javascript:void(0)">SIGN IN</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="header">
+      <div class="container-fluid">
+        <div class="header-row flex-box space-between item-center">
+          <a href="javascript:void(0)" class="logo">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <div class="header-search">
+            <form>
+              <select>
+                <option value="office-supplies">Office Supplies</option>
+                <option value="office-supplies-1">Office Supplies 1</option>
+                <option value="office-supplies-2">Office Supplies 2</option>
+                <option value="office-supplies-3">Office Supplies 3</option>
+              </select>
+              <input type="search" name="search" placeholder="Office Cubicles" />
+              <button type="submit">
+                <img src="images/search.png" alt="" />
+              </button>
+            </form>
+          </div>
+          <ul class="list-unstyled wish-cart-box flex-box space-between item-center">
+            <li>
+              <a href="javascript:void(0)">
+                <img src="images/wishlist.png" alt="wishlist">
+                <span>WISHLIST</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="images/cart.png" alt="cart">
+                <span>CART</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="menu-banner inner-page-banner">
+      <img src="images/banner-1.png" alt="banner">
+    </section>
+    <section class="listing-page">
+      <div class="container-fluid">
+        <div class="row">
+          <a class="product-filter-btn" href="javascript:void(0);"><i class="fas fa-filter"></i></a>
+          <div class="col filter-col">
+            <div class="filter-section">
+              <h2>Filters <i class="fas fa-times text-danger"></i></h2>
+              <div class="filter-body">
+                <div class="filter-body-section">
+                  <div class="filter-form-tags">
+                    <label>Crops</label>
+                    <select class="form-control">
+                      <option>All Crops</option>
+                      <option>Aubergine</option>
+                      <option>Bean</option>
+                      <option>Cabbage</option>
+                      <option>Cauliflower</option>
+                      <option>Cucumber</option>
+                      <option>Melon</option>
+                      <option>Onion</option>
+                      <option>Pepper</option>
+                      <option>Tomato</option>
+                      <option>Watermelon</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="filter-body-section">
+                  <div class="filter-form-tags">
+                    <label>Product Type</label>
+                    <div class="filter-search">
+                      <input type="text" name="name" class="form-control" placeholder="Product Type" />
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="autumn" name="example1">
+                        <label class="custom-control-label" for="autumn">Option 1</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="spring" name="example2">
+                        <label class="custom-control-label" for="spring">Option 2</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="winter" name="example3">
+                        <label class="custom-control-label" for="winter">Option 3</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="year-round" name="example4">
+                        <label class="custom-control-label" for="year-round">Option 4</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="filter-body-section">
+                  <div class="filter-form-tags">
+                    <label>Product</label>
+                    <div class="filter-search">
+                      <input type="text" name="name" class="form-control" placeholder="Product" />
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="autumn" name="example4">
+                        <label class="custom-control-label" for="autumn">Option 1</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="spring" name="example5">
+                        <label class="custom-control-label" for="spring">Option 2</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="winter" name="example6">
+                        <label class="custom-control-label" for="winter">Option 3</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="year-round" name="example7">
+                        <label class="custom-control-label" for="year-round">Option 4</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="filter-body-section">
+                  <div class="filter-form-tags">
+                    <label>Brand</label>
+                    <div class="filter-search">
+                      <input type="text" name="name" class="form-control" placeholder="Brand" />
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <ul class="list-unstyled">
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="autumn" name="example8">
+                        <label class="custom-control-label" for="autumn">Option 1</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="spring" name="example9">
+                        <label class="custom-control-label" for="spring">Option 2</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="winter" name="example10">
+                        <label class="custom-control-label" for="winter">Option 3</label>
+                      </li>
+                      <li class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="year-round" name="example11">
+                        <label class="custom-control-label" for="year-round">Option 4</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="filter-body-section">
+                <div class="filter-form-tags">
+                  <label>Price </label>
+                  <input type="text" id="amount" readonly="" class="range-input">
+                  <div id="slider-range"></div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-6 col-xs-12 product-section">
+                <a href="javascript:void(0)">
+                  <img src="images/mobile.jpg" alt="mobile">
+                  <h2>Mobile</h2>
+                  <p>Latest Product</p>
+                  <div class="product-price">
+                    <p><i class="fas fa-rupee-sign"></i> XXXXX</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mega-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Trade Alert - Delivering the latest product trends and industry news straight to your inbox.</p>
+            <form class="subscribe-form">
+              <input type="email" name="email" placeholder="Your email" />
+              <button type="button" name="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mega-col-footer">
+            <h2>Company Information</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:void(0)">
+                  About Chinabrands
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Terms and Conditions
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Privacy Policies
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Legal Windows
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mega-col-footer">
+            <h2>Customer Service</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:void(0)">
+                  Contact us
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  CB Downloader
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Shipping and Handling
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Payment Methods
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Warranty and Return
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mega-col-footer">
+            <h2>Buyer Tools</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:void(0)">
+                  Message Center
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Global Sources Apps
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Import & Export Services
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Sourcing News & Advice
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Sourcing e-Magazines
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  RFQ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mega-col-footer">
+            <h2>Seller Tools</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:void(0)">
+                  Reach Qualified Buyers
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Sign up for a Free Trial
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Become a Verified Supplier
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Trade Shows
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col mega-col-footer">
+            <h2>Help</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:void(0)">
+                  User Guide
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Help & FAQ
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Contact Customer Service
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Submit Dispute
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  Site Map
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <p>Copyright @ Trade Carvan 2021</p>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    $(document).ready(function(){   
+      $(".product-filter-btn").click(function(){
+        $(".filter-col").toggleClass('active');
+      });
+      $(".filter-section h2 i").click(function(){
+        $(".filter-col").removeClass('active');
+      });    
+      $(".nav-search").click(function(){
+        $(this).parent().toggleClass('search-active');
+      });
+      $(".tab-pane-ul li").click(function(){
+        if($(this).hasClass('active')){
+          $(this).removeClass('active')
+        } else if($(".tab-pane-ul li").hasClass('active')){
+          $(".tab-pane-ul li").removeClass('active')
+          $(this).addClass('active')
+        } else {
+          $(this).addClass('active')
+        }
+      });       
+      $( "#slider-range" ).slider({
+        range: true,
+        min: 1,
+        max: 1000,
+        values: [ 1, 1000 ],
+        slide: function( event, ui ) {
+          $( "#amount" ).val( "₹" + ui.values[ 0 ] + " - ₹" + ui.values[ 1 ] );
+        }
+      });
+      $( "#amount" ).val( "₹" + $( "#slider-range" ).slider( "values", 0 ) +
+        " - ₹" + $( "#slider-range" ).slider( "values", 1 ) );
+      $('.slider').bxSlider({
+        auto: true,
+        pause: 4000
+      });
+      $('.multi-slider').bxSlider({
+        slideWidth: 158,
+        moveSlides: 1,
+        maxSlides: 5,
+        minSlides: 2,
+        shrinkItems: true,
+        slideMargin: 10,
+        pager: false
+      });
+      $('.category-large').bxSlider({
+        slideWidth: 125,
+        moveSlides: 1,
+        maxSlides: 7,
+        minSlides: 2,
+        shrinkItems: true,
+        slideMargin: 5,
+        pager: false        
+      });
+      $('.category-5-large').bxSlider({
+        slideWidth: 180,
+        maxSlides: 5,
+        moveSlides: 1,
+        minSlides: 2,
+        shrinkItems: true,
+        slideMargin: 5,
+        pager: false    
+      });
+      $('.legal-service-slider').bxSlider({
+        slideWidth: 290,
+        maxSlides: 5,
+        minSlides: 2,
+        moveSlides: 1,
+        shrinkItems: true,
+        slideMargin: 15,
+        pager: false    
+      });      
+    });
+  </script>
+</html>
