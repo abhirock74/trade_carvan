@@ -1524,6 +1524,15 @@ a.ui-button:active,
 }
 
 /* ====SUVAIDYAM STYLE OF POP UP FORM ===== */
+.suv-cate {
+	width: 150px;
+	height: 120px;
+
+}
+
+.suv {
+	padding: 0px 10px;
+}
 #popupBox {
 	position: fixed;
 	background: rgba(255, 255, 255, .6);
@@ -1550,9 +1559,14 @@ a.ui-button:active,
 	height: 100px;
 	width: 100px;
 }
+<<<<<<< HEAD
 
 #first-popUp {
 	margin-left: 20%;
+=======
+#leeft {
+	margin-left: 25%;
+>>>>>>> 855800f6ef1cd2b3169cc7bd7ee0f40d60fc3a03
 }
 
 .sub-catag {
@@ -1595,12 +1609,21 @@ a.ui-button:active,
 	#popup {
 		margin: 10% 20%;
 	}
+
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 576px) {
 	#popup {
 		margin: 10% 0%;
 	}
+=======
+@media screen and (max-width: 768px) {
+	#popup{
+		margin: 5% 4%;
+		}
+		
+>>>>>>> 855800f6ef1cd2b3169cc7bd7ee0f40d60fc3a03
 }
 
 @media screen and (min-width: 900px) {}
@@ -1608,6 +1631,9 @@ a.ui-button:active,
 /* login/sign hover  */
 .drop-down {
 	display: none;
+}
+.before-header-ul{
+	margin-bottom: 0%;
 }
 
 .before-header-ul li:hover .drop-down {
@@ -1682,11 +1708,14 @@ ul {
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 }
+<<<<<<< HEAD
 
 .home-page {
 	background-color: #d0ecea;
 	border-radius: 2%;
 }
+=======
+>>>>>>> 855800f6ef1cd2b3169cc7bd7ee0f40d60fc3a03
 
 /* form */
 .register-form {
