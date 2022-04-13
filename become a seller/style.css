@@ -4,7 +4,7 @@
 }
 
 .background {
-    height: 30vw;
+    height: auto;
     background-image: url(./image/Become_a_seller_e569445b75.webp);
 }
 
@@ -48,7 +48,7 @@ button:hover {
 }
 
 .h2 {
-    margin-top: 8.5vw;
+    margin-top: 2.5vw;
     text-align: center;
     color: rgba(4, 10, 4, 0.795);
 }
@@ -59,8 +59,8 @@ button:hover {
 }
 
 .box1 {
-    height: 24vw;
-    width: 20vw;
+    height: auto;
+    width: 40%;
     margin-left: 3.4vw;
 }
 
@@ -105,9 +105,7 @@ button:hover {
 .box3 {
     height: 12vw;
     width: 24vw;
-
     margin-top: 9vw;
-
     border-left: 1px dotted rgba(0, 0, 0, 0.712);
 }
 
@@ -140,7 +138,7 @@ button:hover {
 
 .div-5 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
     margin-top: 8.5vw;
 
 
@@ -148,20 +146,20 @@ button:hover {
 
 .div-2 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
     margin-right: 4vw;
 
 }
 
 .div-4 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
 
 
 }
 
 .img {
-    height: 30vw;
+    height: auto;
     width: 46vw;
 }
 
@@ -200,12 +198,216 @@ hr {
 }
 
 .div-8 {
-    margin-top: 6vw;
+    margin-top: 4vw;
     margin-left: 15vw;
 }
 
 .div-7 {
-    height: 30vw;
-
+    height: auto;
+    margin-top: 6vw;
     background-color: #00394D;
+}
+
+.butt {
+    width: 20vw;
+    height: auto;
+    margin-left: 40%;
+}
+
+.up-button {
+    height: auto;
+}
+
+.bainear {
+    height: 35vw;
+    width: 50vw;
+    background-color: #00394D;
+}
+
+.bainear p {
+    margin-left: 4vw;
+    font-size: x-large;
+}
+
+.bainear span {
+    margin-left: 9vw;
+    color: #f2f2f2;
+}
+
+.bainear-2 span {
+    margin-left: 9vw;
+    color: #f2f2f2;
+}
+
+
+.bainearp-2 {}
+
+.bainear-2 p {
+    margin-left: 4vw;
+    font-size: x-large;
+}
+
+.bainear img {
+    margin-left: 15vw;
+    margin-top: 5vw;
+}
+
+
+.bainear-2 {
+    height: 35vw;
+    width: 50vw;
+    background-color: #00394D;
+}
+
+.bainear-2 img {
+    margin-left: 15vw;
+    margin-top: 5vw;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    .trade-contant {
+        display: block !important;
+        width: 100%;
+    }
+
+    .box1 {
+        width: 45%;
+    }
+
+    .box2 {
+        width: 20vw;
+        height: 20vw;
+        margin-left: 28%;
+        border-radius: 16vw;
+    }
+
+    .bold {
+        font-size: 13vw;
+    }
+
+    .cbold {
+        font-size: 7vw;
+    }
+
+    .bold {
+        font-size: 13vw;
+    }
+
+    .img2 {
+        margin-top: 4.6vw;
+        margin-left: 25%;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .div-8-img {
+        width: 12%;
+    }
+
+    .box-ratio {
+        display: block !important;
+        height: auto;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    .box3 {
+        border-left: none;
+        border-bottom: none;
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+    .up-button {
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+    }
+
+    .butt {
+        width: 35vw;
+        height: auto;
+        margin-left: 32%;
+    }
+
+    .work-tradecarvan {
+        display: block !important;
+    }
+
+    .img {
+        width: 94vw;
+        margin-left: -1%;
+        height: auto;
+    }
+
+    .div-1 {
+        width: 94%;
+        height: auto;
+    }
+
+    .div-3 {
+        margin-top: -28%;
+    }
+
+    .div-2 {
+        width: 94vw;
+        margin-left: -1%;
+        margin-top: 40vw;
+        height: auto;
+    }
+
+    .div-5 {
+        width: 94vw;
+        margin-left: -1%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .trade-contant-2 {
+        display: block !important;
+    }
+
+    .box1 {
+        width: 92%;
+        margin-left: 4%;
+    }
+
+    .box2 {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 28vw;
+        margin-left: 29%;
+    }
+
+    .img2 {
+        margin-top: 8.6vw;
+        margin-left: 23%;
+        width: 24vw;
+        height: 24vw;
+    }
+
+    .up-button {
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .p-5 {
+        color: white;
+        font-size: 1.6vw;
+    }
+
+    .p-6 {
+        color: gray;
+        margin-top: -4vw;
+        text-align: center;
+    }
+
 }
