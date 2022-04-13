@@ -296,6 +296,7 @@ footer p { height: 65px; display: flex; align-items: center; justify-content: ce
 	background: rgba(255, 255, 255, .6);
 	z-index: 1001;
 	width: 100%;
+	overflow-y:scroll
 }
 
 #popup {

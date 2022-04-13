@@ -131,8 +131,9 @@ button:hover {
 
 .div-1 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
     margin-left: 4vw;
+    margin-bottom: 1vw;
 
 }
 
@@ -219,7 +220,7 @@ a:hover {
 
 .bainear {
     height: auto;
-    width: 50vw;
+    width: 48vw;
     margin-bottom: 3vw;
   
 }
@@ -452,6 +453,9 @@ a:hover {
     }
     .our-payment-link-1{
         width: 50%;
+    }
+    .pay{
+        display: none !important;
     }
 }
 
