@@ -356,6 +356,9 @@ footer p { height: 65px; display: flex; align-items: center; justify-content: ce
 .drop-down {
 	display: none;
 }
+.before-header-ul{
+	margin-bottom: 0%;
+}
 
 .before-header-ul li:hover .drop-down {
 	display: block;
@@ -426,10 +429,6 @@ ul {
 	margin-left: 40%;
 	margin-top: 3vw;
 	margin-bottom: 3vw;
-}
-.home-page{
-	background-color: rgba(33, 33, 215, 0.118);
-	border-radius: 2%;
 }
 
 /* form */

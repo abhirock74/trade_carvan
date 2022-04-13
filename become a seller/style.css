@@ -184,8 +184,7 @@ a:hover {
 
 
 }
-
-hr {
+.learn {
     margin-left: 6.5vw;
     margin-top: .2vw;
     width: 95px;
@@ -219,9 +218,15 @@ hr {
 }
 
 .bainear {
-    height: 35vw;
+    height: auto;
     width: 50vw;
-    background-color: #00394D;
+    margin-bottom: 3vw;
+  
+}
+.main-bainear{
+    background-color: #98ddd8;
+   
+
 }
 
 .bainear p {
@@ -254,14 +259,59 @@ hr {
 
 
 .bainear-2 {
-    height: 35vw;
+    height: auto;
     width: 50vw;
-    background-color: #00394D;
+    margin-bottom: 3vw;
 }
 
 .bainear-2 img {
     margin-left: 15vw;
     margin-top: 5vw;
+}
+.our-payment {
+    display: flex;
+    list-style: none;
+}
+
+.our-payment-link-1 {
+    width: 20%;
+    height: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px antiquewhite;
+    border-radius: 5px;
+}
+
+.our-payment-link {
+    width: 20%;
+    height: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 5px;
+}
+
+.ac {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.main-payment {
+    margin-left: 35%;
+}
+
+.division {
+    width: 50%;
+}
+.division-1 {
+    width: 50%;
 }
 
 
@@ -344,6 +394,7 @@ hr {
         width: 94vw;
         margin-left: -1%;
         height: auto;
+        margin-bottom: 2vw;
     }
 
     .div-1 {
@@ -352,7 +403,7 @@ hr {
     }
 
     .div-3 {
-        margin-top: -28%;
+        margin-top: -38%;
     }
 
     .div-2 {
@@ -366,6 +417,41 @@ hr {
         width: 94vw;
         margin-left: -1%;
         height: auto;
+    }
+    .bainear{
+        width: 96vw;
+        width: auto;
+    }
+    .bainear-2{
+        width: 96vw;
+        margin-bottom: 0%;
+    }
+    .main-bainear{
+        display: block!important;
+        width: 100%;
+    }
+    .bainear img{
+        margin-left: 38%;
+    }
+    .bainear-2 img{
+        margin-left: 38%;
+    }
+    .our-payment{
+        display: block!important;
+        margin-left: -4vw;
+    }
+    .division{
+        width: 96%;
+    }
+    .division-1{
+        width: 96%;
+        margin-left: 7%;
+    }
+    .our-payment-link{
+        width: 50%;
+    }
+    .our-payment-link-1{
+        width: 50%;
     }
 }
 
