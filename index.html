@@ -41,57 +41,69 @@
       <div class="mt-4 mx-4">
         <div style="margin: auto 5%;">
           <p id="subDetail">I want to:</p>
-          <div class="d-flex">
-            <div class="p-2 sub-catag first-popUp" id="first-popUp">
-              <img src="./images/suvaidyam/cart-shopping-solid.svg" height="25px" alt="shopping"
-                class="img-pop-svg mt-4">
-              <p class="text-center">Buy</p>
+          <div id="leeft">
+            <div class="d-flex">
+              <div class="p-2 sub-catag first-popUp">
+                <img src="./images/suvaidyam/cart-shopping-solid.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+                <p class="text-center">Buy</p>
+              </div>
+              <div class="p-2 sub-catag first-popUp mx-3">
+                <img src="./images/suvaidyam/sell.svg" height="35px" alt="sell" class="img-pop-svg">
+                <p class="text-center">Sell</p>
+              </div>
+              <div class="p-2 sub-catag" id="secPop3">
+                <p>Home, Garden
+                  <br>& Furniture
+                </p>
+              </div>
+              <div class="p-2 sub-catag mx-3" id="secPop4">
+                <p>Fashion & Accessories</p>
+              </div>
             </div>
-            <div class="p-2 sub-catag first-popUp mx-3">
-              <img src="./images/suvaidyam/sell.svg" height="35px" alt="sell" class="img-pop-svg">
-              <p class="text-center">Sell</p>
+            <div class="d-flex my-3">
+              <div class="p-2 sub-catag" id="secPop5">
+                <p>Health & Personal Care</p>
+              </div>
+              <div class="p-2 sub-catag mx-3" id="secPop6">
+                <p>Construction & Hardware</p>
+              </div>
+              <div class="p-2 sub-catag" id="secPop7">
+                <p>Beauty & Fragrances</p>
+              </div>
+              <div class="p-2 sub-catag mx-3" id="secPop8">
+                <p>Sports & Fitness</p>
+              </div>
             </div>
-            <div class="p-2 sub-catag" id="secPop3">
-              <p>Home, Garden
-                <br>& Furniture
-              </p>
+            <div class="d-flex">
+              <div class="p-2 sub-catag" id="secPop9">
+                <p>Food & Beverage</p>
+              </div>
+              <div class="p-2 sub-catag mx-3" id="secPop10">
+                <p>Automotive</p>
+              </div>
+              <div class="p-2 sub-catag" id="secPop11">
+                <p>Toys</p>
+              </div>
+              <div class="p-2 sub-catag mx-3" id="secPop12">
+                <p>Baby Centre</p>
+              </div>
             </div>
-            <div class="p-2 sub-catag mx-3" id="secPop4">
-              <p>Fashion & Accessories</p>
             </div>
-            <div class="p-2 sub-catag" id="secPop5">
-              <p>Health & Personal Care</p>
-            </div>
-            <div class="p-2 sub-catag mx-3" id="secPop6">
-              <p>Construction & Hardware</p>
-            </div>
-            <div class="p-2 sub-catag" id="secPop7">
-              <p>Beauty & Fragrances</p>
-            </div>
-          </div>
-          <div class="d-flex mt-3">
-            <div class="p-2 sub-catag" id="secPop8">
-              <p>Sports & Fitness</p>
-            </div>
-            <div class="p-2 sub-catag mx-3" id="secPop9">
-              <p>Food & Beverage</p>
-            </div>
-            <div class="p-2 sub-catag" id="secPop10">
-              <p>Automotive</p>
-            </div>
-            <div class="p-2 sub-catag mx-3" id="secPop11">
-              <p>Toys</p>
-            </div>
-            <div class="p-2 sub-catag" id="secPop12">
-              <p>Baby Centre</p>
-            </div>
+            
+            
+            
+            
+            
+            <!-- <div class="d-flex mt-3">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
             <div class="p-2 sub-catag mx-3" id="secPop13">
               <p>Pet & Animal Care</p>
             </div>
             <div class="p-2 sub-catag" id="secPop14">
               <p>Machinery & Equipment</p>
             </div>
-          </div>
+          </div> -->
           <button class="btn btn-color" id="btn" onclick="nextBtn()">NEXT</button>
         </div>
       </div>
@@ -108,7 +120,7 @@
         </div>
         <div class="before-header-col">
           <ul class="list-unstyled before-header-ul">
-            <li><a href="javascript:void(0)">BE A SUPPLIER</a></li>
+            <li><a href="./become a seller/index.html">BE A SUPPLIER</a></li>
             <li> <img src="./images/suvaidyam/user-solid.svg" style="height: 10px;" alt="">
               REGISTER / SIGN
               IN
@@ -1403,10 +1415,9 @@
             </div>
           </div>
           <div class="col-sm-12">
-            <div class="category-option slider-section">
-              <!-- <h3>Top Brands <a href="javascript:void(0)" class="view-all-text">View All ></a></h3> -->
+            <div class="category-option slider-section suv">
               <ul class="list-unstyled category-large">
-                <li>
+                <li class="suv-cate">
                   <a href="javascript:void(0)">
                     <img src="images/com-slide/1.jpg" alt="" />
                   </a>
@@ -2315,28 +2326,28 @@
   function PopUp() {
     document.getElementById('popupBox').style.display = "none";
   }
-  function nextBtn() {
-    document.getElementById('welcome').innerHTML = "Help us improve your experience with us in future.";
-    document.getElementById('step2').innerHTML = "2";
-    document.getElementById('popup').style.width = "80%";
-    document.getElementById('popup').style.margin = "5% 10%";
-    document.getElementById('subDetail').innerHTML = "Select the categories that are relevant to you:";
-    document.getElementById('btn').innerHTML = "Confirm";
-    document.getElementById('secPop3').style.display = "block";
-    document.getElementById('secPop4').style.display = "block";
-    document.getElementById('secPop5').style.display = "block";
-    document.getElementById('secPop6').style.display = "block";
-    document.getElementById('secPop7').style.display = "block";
-    document.getElementById('secPop8').style.display = "block";
-    document.getElementById('secPop9').style.display = "block";
-    document.getElementById('secPop10').style.display = "block";
-    document.getElementById('secPop11').style.display = "block";
-    document.getElementById('secPop12').style.display = "block";
-    document.getElementById('secPop13').style.display = "block";
-    document.getElementById('secPop14').style.display = "block";
-    document.getElementById('first-popUp').style.marginLeft = "0%";
+  //                                                                                                      do    me    .g    El    en    yI    'w    co    ')    nn    HT     =    He     u    im      ove your experience with u    re.";
+  //   document.getElementById('step2').innerHTML = "2";
+  //   document.getElementById('popup').style.width = "50%";
+  //   document.getElementById('popup').style.margin = "1% 25%";
+  //   document.getElementById('subDetail').innerHTML = "Select the categories that are relevant to you:";
+  //   document.getElementById('btn').innerHTML = "Confirm";
+  //   document.getElementById('secPop3').style.display = "block";
+  //   document.getElementById('secPop4').style.display = "block";
+  //   document.getElementById('secPop5').style.display = "block";
+  //   document.getElementById('secPop6').style.display = "block";
+  //   document.getElementById('secPop7').style.display = "block";
+  //   document.getElementById('secPop8').style.display = "block";
+  //   document.getElementById('secPop9').style.display = "block";
+  //   document.getElementById('secPop10').style.display = "block";
+  //   document.getElementById('secPop11').style.display = "block";
+  //   document.getElementById('secPop12').style.display = "block";
+  //   document.getElementById('secPop13').style.display = "block";
+  //   document.getElementById('secPop14').style.display = "block";
 
-  }
+  // };
+
+
 
 </script>
 
