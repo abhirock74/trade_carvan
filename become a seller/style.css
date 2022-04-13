@@ -138,7 +138,7 @@ button:hover {
 
 .div-5 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
     margin-top: 8.5vw;
 
 
@@ -146,20 +146,20 @@ button:hover {
 
 .div-2 {
     width: 46vw;
-    height: 30vw;
+    height: auto;
     margin-right: 4vw;
 
 }
 
 .div-4 {
     width: 46vw;
-    height: 30vw;
+    height:auto;
 
 
 }
 
 .img {
-    height: 30vw;
+    height: auto;
     width: 46vw;
 }
 
@@ -203,7 +203,7 @@ hr {
 }
 
 .div-7 {
-    height: 35vw;
+    height: auto;
     margin-top: 6vw;
     background-color: #00394D;
 }
@@ -211,6 +211,9 @@ hr {
     width: 20vw;
     height: auto;
     margin-left: 40%;
+}
+.up-button{
+    height: auto;
 }
 @media screen and (max-width: 750px) {
 	.trade-contant{
@@ -247,13 +250,44 @@ hr {
         margin-top: 10%;
         width: 100%;
     }
+    .up-button{
+        width: 40%;
+        height: auto;
+        margin-left: 30%;
+    }
     .butt{
         width: 35vw;
         height: auto;
         margin-left: 32%;
     }
+    .work-tradecarvan{
+        display: block !important;
+    }
+    .img{
+        width: 94vw;
+        margin-left:-1% ;
+        height: auto;
+    }
+    .div-1 {
+        width: 94%;
+        height: auto;
+    }
+    .div-3{
+        margin-top: -28%;
+    }
+    .div-2{
+        width: 94vw;
+        margin-left:-1% ;
+        margin-top: 40vw;
+        height: auto;
+    }
+    .div-5{
+        width: 94vw;
+        margin-left:-1% ;
+        height: auto;
+    }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 411px){
      .trade-contant-2{
          display: block !important;
      }
@@ -273,8 +307,12 @@ hr {
         width: 24vw;
         height: 24vw;
      }
-=======
-
+     .up-button{
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+    }
+    
 .p-5 {
     color: white;
     font-size: 1.6vw;
@@ -284,5 +322,6 @@ hr {
     color: gray;
     margin-top: -4vw;
     text-align: center;
->>>>>>> 05bc64215526679855f360d3b623093ae40b481d
+}
+
 }
