@@ -282,6 +282,15 @@ footer p { height: 65px; display: flex; align-items: center; justify-content: ce
 }
 
 /* ====SUVAIDYAM STYLE OF POP UP FORM ===== */
+.suv-cate {
+	width: 150px;
+	height: 120px;
+
+}
+
+.suv {
+	padding: 0px 10px;
+}
 #popupBox {
 	position: fixed;
 	background: rgba(255, 255, 255, .6);
@@ -306,8 +315,8 @@ footer p { height: 65px; display: flex; align-items: center; justify-content: ce
 	height: 100px;
 	width: 100px;
 }
-#first-popUp{
-	margin-left:20%;
+#leeft {
+	margin-left: 25%;
 }
 .sub-catag{
 		height: 120px;
@@ -342,11 +351,13 @@ footer p { height: 65px; display: flex; align-items: center; justify-content: ce
 	#popup{
 		margin: 10% 20%;
 	}
+
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 	#popup{
-		margin: 10% 0%;
-	}
+		margin: 5% 4%;
+		}
+		
 }
 @media screen and (min-width: 900px) {
 	
