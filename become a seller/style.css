@@ -229,6 +229,15 @@ hr {
         margin-left: 28%;
         border-radius: 16vw;
     }
+    .bold{
+        font-size: 13vw;
+    }
+    .cbold{
+        font-size: 7vw;
+    }
+    .bold{
+        font-size: 13vw;
+    }
     .img2{
         margin-top: 4.6vw;
         margin-left: 25%;
@@ -240,15 +249,17 @@ hr {
     }
     .box-ratio{
         display: block !important;
+        height: auto;
     }
     .box{
         height: auto;
     }
     .box3{
         border-left: none;
-        border-bottom: 1px dotted rgba(0, 0, 0, 0.712);
+        border-bottom: none;
         margin-top: 10%;
         width: 100%;
+        height: auto;
     }
     .up-button{
         width: 40%;

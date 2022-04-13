@@ -427,6 +427,10 @@ ul {
 	margin-top: 3vw;
 	margin-bottom: 3vw;
 }
+.home-page{
+	background-color: rgba(33, 33, 215, 0.118);
+	border-radius: 2%;
+}
 
 /* form */
 .register-form {
