@@ -1706,7 +1706,7 @@ ul {
 /* allibaba  */
 .img-baner {
 	background-image: url(https://img.alicdn.com/tfs/TB1RrnvyuT2gK0jSZFvXXXnFXXa-800-375.png);
-	height: 25vw;
+	height: auto;
 	margin-left: 1vw;
 	border-radius: 1vw;
 }
