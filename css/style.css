@@ -515,7 +515,7 @@ p {
 	height: 135px;
 	background: #d4ecef;
 	padding: 0 50px 0 25px;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .feat-head-green {
@@ -1524,24 +1524,22 @@ a.ui-button:active,
 }
 
 /* ====SUVAIDYAM STYLE OF POP UP FORM ===== */
-.suv-cate {
-	width: 150px;
-	height: 120px;
 
+.topbrand-s img {
+	height: 125px;
+	width: 125px;
+	border: 1px solid #e8e8e8;
 }
-
-.suv {
-	padding: 0px 10px;
+.category-large li {
+	width: 174px !important;
 }
-
 #popupBox {
-	position: fixed;
+	position: absolute;
 	background: rgba(255, 255, 255, .6);
 	z-index: 1001;
 	width: 100%;
 	overflow-y:scroll
 }
-
 #popup {
 	background: #FFFFFF;
 	box-shadow: #64686e34 0px 0px 4px 4px;
@@ -1551,18 +1549,7 @@ a.ui-button:active,
 	font-family: var(--chakra-fonts-body);
 	margin: 10% 30%;
 }
-
-.sub-catag {
-	display: none;
-}
-
-.first-popUp {
-	display: block;
-	height: 100px;
-	width: 100px;
-}
-
-#leeft {
+#step1 {
 	margin-left: 25%;
 }
 
@@ -1588,35 +1575,26 @@ a.ui-button:active,
 }
 
 .btn-color {
-	background-color: orangered;
 	margin: 5% 10%;
 	width: 80%;
 }
 
 .img-pop-svg {
-	margin-left: 30%;
+	margin-left: 40%;
+	margin-right: 40%;
 	margin-top: 15%;
 }
 
 .pa-5 {
 	padding: 12% !important;
 }
-
-@media screen and (max-width: 1000px) {
-	#popup {
-		margin: 10% 20%;
-	}
-
+#step2 {
+	display: none;
 }
 
-@media screen and (max-width: 768px) {
-	#popup {
-		margin: 5% 4%;
-	}
-
+.mar-left {
+	margin-left: 12%;
 }
-
-@media screen and (min-width: 900px) {}
 
 /* login/sign hover  */
 .drop-down {
@@ -1725,6 +1703,23 @@ ul {
 	height: auto;
 }
 
+/* allibaba  */
+.img-baner {
+	background-image: url(https://img.alicdn.com/tfs/TB1RrnvyuT2gK0jSZFvXXXnFXXa-800-375.png);
+	height: 25vw;
+	margin-left: 1vw;
+	border-radius: 1vw;
+}
+
+.text-baner {
+	margin-left: 1vw;
+	margin-right: 1vw;
+	border: 5px solid #f7f4f4;
+}
+
+.h2font {
+	margin-left: 1vw;
+}
 @media screen and (max-width: 1060px) {
 	.form {
 		width: 60%;
@@ -1757,3 +1752,32 @@ ul {
 		margin-left: -5%;
 	}
 }
+/* pop up window responsive code  */
+@media screen and (max-width: 550px) {
+	#step1 {
+		margin-left: 15%;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	#step2 {
+		margin: 0 5%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	#step2 {
+		margin: 0 -5%;
+	}
+
+	@media screen and (max-width: 439px) {
+		#step2 {
+			margin: 0 10%;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		#popup {
+			margin: 5% 4%;
+		}
+	}
