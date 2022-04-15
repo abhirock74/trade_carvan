@@ -556,6 +556,12 @@ p {
 	margin-bottom: 10px;
 	border: 1px solid #e8e8e8;
 }
+.multi-slider-boxs img {
+	width: 151px;
+	margin-bottom: 10px;
+	height: 123px;
+	border: 1px solid #e8e8e8;
+}
 
 .multi-slider-content h4 {
 	color: #5b5b5b;
@@ -1525,14 +1531,10 @@ a.ui-button:active,
 
 /* ====SUVAIDYAM STYLE OF POP UP FORM ===== */
 
-.topbrand-s img {
-	height: 125px;
-	width: 125px;
-	border: 1px solid #e8e8e8;
-}
 .category-large li {
-	width: 174px !important;
+	width: 173px !important;
 }
+
 #popupBox {
 	position: absolute;
 	background: rgba(255, 255, 255, .6);
@@ -1641,11 +1643,6 @@ ul {
 	position: absolute;
 }
 
-.w1-100 {
-	height: 136px;
-}
-
-
 
 
 
@@ -1708,7 +1705,7 @@ ul {
 	background-image: url(../images/suvaidyam/aliba.png);
 	height: auto;
 	margin-left: 1vw;
-	border-radius: 1vw;
+		border-radius: 1vw;
 }
 
 .text-baner {
