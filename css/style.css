@@ -1756,6 +1756,11 @@ ul {
 		margin-left: 15%;
 	}
 }
+@media screen and (max-width: 440px) {
+	#step1 {
+		margin-left: 5%;
+	}
+}
 
 @media screen and (max-width: 580px) {
 	#step2 {
@@ -1763,7 +1768,7 @@ ul {
 	}
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
 	#step2 {
 		margin: 0 -5%;
 	}
