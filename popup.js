@@ -11,6 +11,7 @@
       document.getElementById('step1').style.display = "none";
       document.getElementById('step2').style.display = "block";
       document.getElementById('popup').style.margin = "2%  10%";
+      // document.getElementById('sm-pop').style.marginLeft = "-23%";
 };
     
       const counters = document.querySelectorAll(".count");
