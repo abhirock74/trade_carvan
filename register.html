@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>profile</title>
+    <title>register</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -104,11 +104,10 @@
               <div class="row d-flex justify-content-center align-items-center h-100">
                 <!-- step1 -->
                 <div class="col-md-11">
-                  <p class="text-center mt-5 text-dark mb-1"><a href="#" class="text-dark">1. Profile</a> <span><a class="text-dark"
-                        href="./register-2.html">-
-                        2.
-                        Business</a></span> <span>
-                      <a href="./register-3.html" class="text-dark">- 3. Documents</a></span> </p>
+                  <p class="text-center mt-5 text-dark mb-1 opacity-reg"><span>1. Profile</span><span> -2. Business</span> <span>- 3.
+                      Documents</span>
+                  </p>
+                  <div id="profile">
                   <h4 class="text-center">Create your profile and start buying</h4>
 
                   <p class="text-center mb-2">Tradeling simplifies your wholesale buying! Enjoy the ease and
@@ -162,10 +161,91 @@
                         <u>Terms & Conditions</u></a>
                       </label>
                     </div>
+</div>
+<!--  step second for register page -->
+<div id="business">
+  <h4 class="text-center">Tell us about your business</h4>
 
-                    <div class="d-flex justify-content-center">
-                      <a href="./register-2.html"><button type="button" class="btn btn-block btn-lg text-body "
-                          style="background-color: #a6cecc;">Next</button></a>
+  <p class="text-center mb-2">Tradeling simplifies your wholesale buying! Enjoy the ease and
+    handy features of our
+    digital marketplace. The details blew help us serve you better
+
+  </p>
+  <form>
+
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example1cg">Company Name</label>
+      <input type="text" id="form3Example1cg" class="form-control " placeholder="Enter your company name" />
+    </div>
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example1cg">Company of opration</label>
+      <select class="form-control">
+        <option>Enter your country</option>
+        <option>Large select</option>
+        <option>Large select</option>
+      </select>
+    </div>
+  
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example1cg">Which industry best deseribes your
+        business?</label>
+      <select class="form-control">
+        <option>Choose the type your business</option>
+        <option>Large select</option>
+        <option>Large select</option>
+      </select>
+    </div>
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example1cg">Which option best describes your deparment</label>
+      <select class="form-control">
+        <option>Choose the option that describes your deparment</option>
+        <option>Large select</option>
+        <option>Large select</option>
+      </select>
+    </div>
+    
+    <div class="form-outline mb-4">
+      <label class="form-label" for="form3Example1cg">What size is your business?</label>
+      <select class="form-control">
+        <option>Choose your business size</option>
+        <option>Large select</option>
+        <option>Large select</option>
+      </select>
+    </div>
+    </div>
+    <!--  /step second for register page -->
+    <!--  step third for register page -->
+    
+    <div id="document">
+      <h4 class="text-center">Verify you account</h4>
+    
+      <p class="text-center mb-3">Almost done! We've sent a verification code to Click the link in
+        your email or enter the code below
+      </p>
+      <form>
+    
+        <div class="d-flex flex-row mx-5">
+          <input type="text" class="form-control" autofocus="">
+          <input type="text" class="form-control mx-2">
+          <input type="text" class="form-control">
+          <input type="text" class="form-control mx-2">
+          <input type="text" class="form-control">
+          <input type="text" class="form-control mx-2">
+    
+        </div>
+    
+        <p class="text-center text-muted mt-5 mb-4 mb-0">Haven't received it? <a href="#!"
+            class="fw-bold text-body"><u>Resend
+              the code</u></a></p>
+    </div>
+    <!-- / step third for register page -->
+    <div class="d-flex justify-content-center">
+      <button type="button" id="next-page" class="btn btn-block btn-lg text-body " style="background-color: #a6cecc;"
+        onclick="business()">Next</button>
+    </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" id="next-page3" class="btn btn-block btn-lg text-body " style="background-color: #a6cecc;"
+          onclick="register()">Next</button>
                     </div>
 
                     <p class="text-center text-muted mt-5 mb-4 mb-0">Have already an account? <a href="./signin.html"
@@ -387,5 +467,24 @@
     </a>
 
   </body>
+  <script>
+    document.getElementById('business').style.display = "none";
+    document.getElementById('document').style.display = "none";
+    document.getElementById('next-page3').style.display = "none";
+    function business() {
+      document.getElementById('profile').style.display = "none";
+      document.getElementById('business').style.display = "block";
+      document.getElementById('next-page3').innerHTML = "REGISTER";
+      document.getElementById('next-page').style.display = "none";
+      document.getElementById('next-page3').style.display = "block";
+    };
+    function register() {
+      document.getElementById('profile').style.display = "none";
+      document.getElementById('business').style.display = "none";
+      document.getElementById('document').style.display = "block";
+      document.getElementById('next-page3').innerHTML = "VERITY";
+    };
+
+  </script>
 
 </html>

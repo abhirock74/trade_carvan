@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Become a Seller</title>
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -346,19 +346,25 @@
                 <div class="pay">
                   <div class="main-payment mt-5">
                     <ul class="our-payment">
-                        <li class="our-payment-link"><a class="ac" href="#">Payment termd</a></li>
-                        <li class="our-payment-link-1"><a class="ac" href="#">Commission structure</a></li>
+                        <li class="our-payment-link ac" onclick="commission()">Payment termd</li>
+                        <li class="our-payment-link-1 ac" onclick="payment()">Commission structure</li>
                     </ul>
                 </div>
                 <hr style="margin-top: -0.1vw;">
                 <div class="our-payment my-5">
-                    <div class="division"><img class="ms-5 img" src="../become a seller/image/Fulfilled_by_tradeling_4b0ade104a.webp" alt=""></div>
-                    <div class="division-1 ms-3">
-                        <h1 class="ms-4">Payment terms</h1>
-                        <p class="ms-4">We offer the widest range of payment terms.
-                             This ensures that you and your customers can conclude your
-                            transactions in a way that best suits your business needs.</p>
-                    </div>
+                  <div id="payment-term">
+                    <h1>payment-term</h1>
+                    <!-- <div class="division"><img class="ms-5 img" src="../become a seller/image/Fulfilled_by_tradeling_4b0ade104a.webp" alt=""></div>
+                                                                            <div class="division-1 ms-3">
+                                                                                <h1 class="ms-4">Payment terms</h1>
+                                                                                <p class="ms-4">We offer the widest range of payment terms.
+                                                                                     This ensures that you and your customers can conclude your
+                                                                                    transactions in a way that best suits your business needs.</p>
+                                        </div> -->
+                                        </div>
+                                        <div id="commission-structure">
+                                          <h1> commission-structure</h1>
+                  </div>
                 </div>
                 <div class="our-payment " style="display: none;">
                     <div class="division"><img src="./inm/Manage_catalogue_40a54fee91.webp" alt=""></div>
@@ -566,9 +572,18 @@
                   <!-- <a href="javascript:void(0)" class="bid-option">
                     <img src="../images/order.png" alt="order" />
                   </a> -->
-            
-            
 
     </body>
+    <script>
+      document.getElementById('commission-structure').style.display = "none";
+      function commission() {
+        document.getElementById('commission-structure').style.display = "block";
+        document.getElementById('payment-term').style.display = "none";
+      }
+      function payment() {
+        document.getElementById('commission-structure').style.display = "none";
+        document.getElementById('payment-term').style.display = "block";
+      }
+    </script>
 
 </html>

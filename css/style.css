@@ -1648,7 +1648,9 @@ ul {
 
 
 /* Login Form CSS */
-
+.opacity-reg {
+	opacity: 0.7;
+}
 
 .register {
 	width: 100%;
@@ -1772,19 +1774,20 @@ ul {
 	#step2 {
 		margin: 0 -5%;
 	}
+}
 	
-		@media screen and (max-width: 529px) {
+@media screen and (max-width: 529px) {
 		#step2 {
 			margin: 0 10%;
 		}
 			#sm-pop {
 				margin-left: -10%;
 			}
-	}
+}
 
-	@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 		#popup {
 			margin: 35% 4%;
 			}
 			
-	}
+}
