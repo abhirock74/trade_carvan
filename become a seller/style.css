@@ -3,9 +3,16 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
 .background {
+    background-repeat: no-repeat;
     height: auto;
-    background-image: url(../images/suvaidyam/aliba.png);
+    background-image: url(./image/Become_a_seller_e569445b75.webp);
 }
 
 .become {
@@ -185,6 +192,7 @@ a:hover {
 
 
 }
+
 .learn {
     margin-left: 6.5vw;
     margin-top: .2vw;
@@ -222,11 +230,12 @@ a:hover {
     height: auto;
     width: 48vw;
     margin-bottom: 3vw;
-  
+
 }
-.main-bainear{
-    background-color: #98ddd8;
-   
+
+.main-bainear {
+    background-color: #2264dd;
+
 
 }
 
@@ -246,7 +255,6 @@ a:hover {
 }
 
 
-.bainearp-2 {}
 
 .bainear-2 p {
     margin-left: 4vw;
@@ -269,27 +277,26 @@ a:hover {
     margin-left: 15vw;
     margin-top: 5vw;
 }
+
 .our-payment {
     display: flex;
     list-style: none;
 }
 
 .our-payment-link-1 {
-    width: 20%;
+    width: 25%;
     height: auto;
-    background-color: antiquewhite;
     text-align: center;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    border-top: solid 1px black;
-    border-left: solid 1px black;
-    border-right: solid 1px black;
-    border-bottom: solid 1px antiquewhite;
+    border-top: solid 1px rgba(128, 128, 128, 0.692);
+    border-left: solid 1px rgba(128, 128, 128, 0.692);
+    border-right: solid 1px rgba(128, 128, 128, 0.692);
     border-radius: 5px;
 }
 
 .our-payment-link {
-    width: 20%;
+    width: 25%;
     height: auto;
     background-color: whitesmoke;
     text-align: center;
@@ -308,13 +315,48 @@ a:hover {
     margin-left: 35%;
 }
 
+.main-payment ul li {
+    color: rgba(4, 10, 4, 0.795);
+}
+
 .division {
     width: 50%;
 }
+
 .division-1 {
     width: 50%;
 }
 
+.commission-structure-button-1 {
+    margin-left: 3.5vw;
+
+    margin-top: 5vw;
+    height: 2.9vw;
+    width: 12vw;
+    border: 1px solid black;
+
+}
+
+.commission-structure-button {
+    margin-top: 5vw;
+    margin-left: 3.5vw;
+    height: 2.9vw;
+    border: none;
+    width: 12vw;
+    background-color: #00394D;
+    color: #f2f2f2;
+
+}
+
+
+.payment-div ul li {
+    margin-left: 5vw;
+    list-style-type: square;
+}
+
+.payment-div h4 {
+    color: rgba(4, 10, 4, 0.795);
+}
 
 
 
@@ -419,42 +461,53 @@ a:hover {
         margin-left: -1%;
         height: auto;
     }
-    .bainear{
+
+    .bainear {
         width: 96vw;
         width: auto;
     }
-    .bainear-2{
+
+    .bainear-2 {
         width: 96vw;
         margin-bottom: 0%;
     }
-    .main-bainear{
-        display: block!important;
+
+    .main-bainear {
+        display: block !important;
         width: 100%;
     }
-    .bainear img{
+
+    .bainear img {
         margin-left: 38%;
     }
-    .bainear-2 img{
+
+    .bainear-2 img {
         margin-left: 38%;
     }
-    .our-payment{
-        display: block!important;
+
+    .our-payment {
+        display: block !important;
         margin-left: -4vw;
     }
-    .division{
+
+    .division {
         width: 96%;
     }
-    .division-1{
+
+    .division-1 {
         width: 96%;
         margin-left: 7%;
     }
-    .our-payment-link{
+
+    .our-payment-link {
         width: 50%;
     }
-    .our-payment-link-1{
+
+    .our-payment-link-1 {
         width: 50%;
     }
-    .pay{
+
+    .pay {
         display: none !important;
     }
 }
@@ -499,10 +552,11 @@ a:hover {
         margin-top: -4vw;
         text-align: center;
     }
+
     .bainear-2 img {
         margin-left: 30%;
     }
-    
+
     .bainear img {
         margin-left: 30%;
     }
