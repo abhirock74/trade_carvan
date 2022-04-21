@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trade</title>
+    <title>register</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/fevicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -92,6 +92,7 @@
             </div>
         </div>
     </section>
+
     <div class="register ">
         <div class="form">
             <!-- logo -->
@@ -105,56 +106,177 @@
                         <div class="row d-flex justify-content-center align-items-center h-100">
                             <!-- step1 -->
                             <div class="col-md-11">
-                                <p class="text-center mt-5 text-dark mb-3">
-                                    1. Profile<span><a class="text-dark" href="./register-2.html">- 2.Business</a></span> <span>
-                                        <a href="./seller-register.html" class="text-dark">- 3.
-                                            Product</a></span></span> <span><a href="./register-3.html" class="text-dark">- 4.
-                                            Documents</a></span> </p>
-
-                                <h4 class="text-center">Tell us more about your business</h4>
-
-                                <p class="text-center">Reach thousands of verified buyers across the MENA region. Enjoy
-                                    world-class support and tools for your business. The details below help us serve you
-                                    better.
-
+                                <p class="text-center mt-5 text-dark mb-1 opacity-reg"><span> <span id="n1">1.</span>
+                                        Profile</span><span> -<span id="n2">2.</span>
+                                        Business</span> <span>- 3.
+                                        Product</span>
+                                    <span>- 4.
+                                        Documents</span>
                                 </p>
-                                <form>
+                                <div id="profile">
+                                    <h4 class="text-center">Create your profile and start buying</h4>
 
-                                    <div class="form-outline mb-2">
-                                        <label class="form-label" for="form3Example1cg">Company Name</label>
-                                        <input type="text" id="form3Example1cg" class="form-control "
-                                            placeholder="Enter your company name" />
-                                    </div>
-                                    <div class="form-outline mb-2">
-                                        <label class="form-label" for="form3Example1cg">Choose the type of your
-                                            business?</label>
-                                        <select class="form-control">
-                                            <option>Enter your country</option>
-                                            <option>Large select</option>
-                                            <option>Large select</option>
-                                        </select>
-                                    </div>
+                                    <p class="text-center mb-2">Tradeling simplifies your wholesale buying! Enjoy the
+                                        ease and
+                                        handy features of our
+                                        digital marketplace.
 
-                                    <div class="form-outline mb-2">
-                                        <label class="form-label" for="form3Example1cg">Which option best describes your
-                                            department?</label>
-                                        <select class="form-control">
-                                            <option>Choose the option that describes your dipartment</option>
-                                            <option>Large select</option>
-                                            <option>Large select</option>
-                                        </select>
-                                    </div>
+                                    </p>
+                                    <form>
 
-                                    <div class="form-outline mb-2">
-                                        <label class="form-label" for="form3Example1cg">What size is your
-                                            business?</label>
-                                        <select class="form-control">
-                                            <option>Choose your business size</option>
-                                            <option>Large select</option>
-                                            <option>Large select</option>
-                                        </select>
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="fname">Your Name</label>
+                                            <input type="text" id="fname" class="form-control " required />
                                         </div>
-                                        
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="lname">Last Name</label>
+                                            <input type="text" id="lname" class="form-control" required />
+                                        </div>
+
+                                        <label class="form-label" for="number">Contact number</label>
+                                        <div class="form-group input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                                            </div>
+                                            <select class="custom-select" style="max-width: 120px;">
+                                                <option selected="">+91</option>
+                                                <option value="1">+972</option>
+                                                <option value="2">+198</option>
+                                                <option value="3">+701</option>
+                                            </select>
+                                            <input name="number" id="number" class="form-control"
+                                                placeholder="Phone number" type="text">
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="email">Your Email</label>
+                                            <input type="email" id="email" class="form-control " />
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="password">Password</label>
+                                            <input type="password" id="password" class="form-control " />
+                                        </div>
+
+
+
+                                        <div class="form-check  mb-5">
+                                            <input onclick="enable()" class="check-btn " type="checkbox" value=""
+                                                id="check-btn" />
+                                            <label class="form-check" for="form2Example3g">
+                                                I agree to Trade canvas <a href="#!" class="text-body"><u>Terms &
+                                                        Conditions</u></a>
+                                                and achnowledge our
+                                                <u>Terms & Conditions</u></a>
+                                            </label>
+                                        </div>
+                                </div>
+                                <!--  step second for register page -->
+                                <div id="business">
+                                    <h4 class="text-center">Tell us about your business</h4>
+
+                                    <p class="text-center mb-2">Tradeling simplifies your wholesale buying! Enjoy the
+                                        ease and
+                                        handy features of our
+                                        digital marketplace. The details blew help us serve you better
+
+                                    </p>
+                                    <form>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example1cg">Company Name</label>
+                                            <input type="text" id="form3Example1cg" class="form-control "
+                                                placeholder="Enter your company name" />
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example1cg">Company of opration</label>
+                                            <select class="form-control">
+                                                <option>Enter your country</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example1cg">Which industry best
+                                                deseribes your
+                                                business?</label>
+                                            <select class="form-control">
+                                                <option>Choose the type your business</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example1cg">Which option best describes
+                                                your deparment</label>
+                                            <select class="form-control">
+                                                <option>Choose the option that describes your deparment</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="form3Example1cg">What size is your
+                                                business?</label>
+                                            <select class="form-control">
+                                                <option>Choose your business size</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+                                </div>
+                                <!--  /step second for register page -->
+                                <!--  step third for register page -->
+                                <div id="product">
+                                    <h4 class="text-center">Tell us more about your business</h4>
+
+                                    <p class="text-center">Reach thousands of verified buyers across the MENA region.
+                                        Enjoy
+                                        world-class support and tools for your business. The details below help us serve
+                                        you
+                                        better.
+
+                                    </p>
+                                    <form>
+
+                                        <div class="form-outline mb-2">
+                                            <label class="form-label" for="form3Example1cg">Company Name</label>
+                                            <input type="text" id="form3Example1cg" class="form-control "
+                                                placeholder="Enter your company name" />
+                                        </div>
+                                        <div class="form-outline mb-2">
+                                            <label class="form-label" for="form3Example1cg">Choose the type of your
+                                                business?</label>
+                                            <select class="form-control">
+                                                <option>Enter your country</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-outline mb-2">
+                                            <label class="form-label" for="form3Example1cg">Which option best describes
+                                                your
+                                                department?</label>
+                                            <select class="form-control">
+                                                <option>Choose the option that describes your dipartment</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-outline mb-2">
+                                            <label class="form-label" for="form3Example1cg">What size is your
+                                                business?</label>
+                                            <select class="form-control">
+                                                <option>Choose your business size</option>
+                                                <option>Large select</option>
+                                                <option>Large select</option>
+                                            </select>
+                                        </div>
+
                                         <div class="form-outline mb-3">
                                             <label class="form-label" for="form3Example1cg">Registered Address
                                             </label>
@@ -180,13 +302,14 @@
                                             </div>
                                         </div>
                                         <div class="form-outline mt-3">
-                                            <input type="text" id="form3Example1cg" class="form-control  " placeholder="PO Box" />
+                                            <input type="text" id="form3Example1cg" class="form-control  "
+                                                placeholder="PO Box" />
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value="" />
                                             <label class="form-check mt-2">Same as my stock pickup address</label>
                                         </div>
-                                        
+
                                         <div class="form-outline mb-2">
                                             <label class="form-label" for="form3Example1cg">Nearest Airport</label>
                                             <select class="form-control">
@@ -203,12 +326,47 @@
                                                 <option>Large select</option>
                                             </select>
                                         </div>
+                                </div>
+                                <!--  /step third for register page -->
 
+                                <!--  step third for register page -->
 
-                                    <div class="d-flex justify-content-center">
-                                        <button type="button" class=" btn btn-block btn-lg mb-4 mt-2"
-                                            style="background-color: #a6cecc;">REGISTER</button>
-                                    </div>
+                                <div id="document">
+                                    <h4 class="text-center">Verify you account</h4>
+
+                                    <p class="text-center mb-3">Almost done! We've sent a verification code to Click the
+                                        link in
+                                        your email or enter the code below
+                                    </p>
+                                    <form>
+
+                                        <div class="d-flex flex-row mx-5">
+                                            <input type="text" class="form-control" maxlength="1">
+                                            <input type="text" class="form-control mx-2" maxlength="1">
+                                            <input type="text" class="form-control" maxlength="1">
+                                            <input type="text" class="form-control mx-2" maxlength="1">
+                                            <input type="text" class="form-control" maxlength="1">
+                                            <input type="text" class="form-control mx-2" maxlength="1">
+
+                                        </div>
+                                        <p class="text-center text-muted mt-5 mb-4 mb-0">Haven't received it? <a
+                                                href="#!" class="fw-bold text-body"><u>Resend
+                                                    the code</u></a></p>
+                                </div>
+                                <!-- / step third for register page -->
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" id="next-page" class="btn btn-block btn-lg text-body "
+                                        style="background-color: #a6cecc;" onclick="business()"
+                                        disabled="true">Next</button>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" id="next-page3" class="btn btn-block btn-lg text-body "
+                                        style="background-color: #a6cecc;" onclick="register()">Next</button>
+                                </div>
+
+                                <p class="text-center text-muted mt-5 mb-4 mb-0">Have already an account? <a
+                                        href="./signin.html" class="fw-bold text-body"><u>Login here</u></a></p>
+
                                 </form>
                             </div>
 
@@ -425,5 +583,35 @@
     </a>
 
 </body>
+<script>
+    document.getElementById('business').style.display = "none";
+    document.getElementById('document').style.display = "none";
+    document.getElementById('product').style.display = "none";
+    document.getElementById('next-page3').style.display = "none";
+    function business() {
+        document.getElementById('profile').style.display = "none";
+        document.getElementById('business').style.display = "block";
+        document.getElementById('next-page3').innerHTML = "REGISTER";
+        document.getElementById('n1').innerHTML = "&#x2713;";
+        document.getElementById('next-page').style.display = "none";
+        document.getElementById('next-page3').style.display = "block";
+    };
+    function register() {
+        document.getElementById('profile').style.display = "none";
+        document.getElementById('business').style.display = "none";
+        document.getElementById('document').style.display = "block";
+        document.getElementById('next-page3').innerHTML = "VERITY";
+        document.getElementById('n2').innerHTML = "&#x2713;";
+    };
+    function enable() {
+        var check = document.getElementById('check-btn');
+        var btn = document.getElementById('next-page');
+        if (check.checked) {
+            btn.removeAttribute('disabled');
+        } else {
+            btn.disabled = "true";
+        };
+    };
+</script>
 
 </html>
