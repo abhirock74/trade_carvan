@@ -330,10 +330,10 @@ a:hover {
 
 .commission-structure-button-1 {
     margin-left: 3.5vw;
-
     margin-top: 5vw;
-    height: 2.9vw;
-    width: 12vw;
+    height: auto;
+    width: auto;
+    padding: 0.3vw 1vw 0.3vw 1vw;
     border: 1px solid black;
 
 }
@@ -341,9 +341,10 @@ a:hover {
 .commission-structure-button {
     margin-top: 5vw;
     margin-left: 3.5vw;
-    height: 2.9vw;
+    height: auto;
     border: none;
-    width: 12vw;
+    width: auto;
+    padding: 0.5vw 1vw 0.5vw 1vw;
     background-color: #00394D;
     color: #f2f2f2;
 
@@ -502,6 +503,9 @@ a:hover {
     .payment-ul{
         margin-left: 8%;
     }
+    .commission-structure-dv {
+        margin-left: 10%;
+    }
  
 }
 
@@ -562,6 +566,9 @@ a:hover {
     .our-payment{
         width: 100%;
         margin-left: -24%;
+    }
+    .commission-structure-dv {
+        margin-left: 0%;
     }
 
 }
