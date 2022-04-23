@@ -1664,7 +1664,6 @@ ul {
 	height: auto;
 	margin-left: 30%;
 }
-
 /* Logo */
 .register-logo {
 	width: 100%;
@@ -1761,6 +1760,9 @@ ul {
 @media screen and (max-width: 440px) {
 	#step1 {
 		margin-left: 5%;
+	}
+	.otp{
+		padding: 0.375rem 0.4rem;
 	}
 }
 
