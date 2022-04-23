@@ -1728,8 +1728,8 @@ ul {
 
 @media screen and (max-width: 720px) {
 	.form {
-		width: 80%;
-		margin-left: 10%;
+		width: 82%;
+		margin-left: 9%;
 	}
 
 }
@@ -1763,6 +1763,9 @@ ul {
 	}
 	.otp{
 		padding: 0.375rem 0.4rem;
+	}
+	.select-site{
+		margin-left: -35px;
 	}
 }
 
