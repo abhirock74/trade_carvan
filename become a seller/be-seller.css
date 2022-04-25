@@ -2,7 +2,7 @@
 .background {background-repeat: no-repeat; height: auto; background-image: url(./image/Become_a_seller_e569445b75.webp);}
 .become {position: relative;margin-left: 4vw; padding-top: 10vw; font-size: 50px;color: white;}
 .become-dwon{ position: relative; margin-left: 4vw; color: white; font-size: 20px;}
-.be-seller-btn { color: white; background-color: rgba(255, 102, 0, 0.979); margin-left: 4vw; width: 18vw; height: 3.5vw; border: none; border-radius: 3px;}
+.be-seller-btn { color: white; background-color: #00394D; margin-left: 4vw; width: 18vw; height: 3.5vw; border: none; border-radius: 3px;}
 .box2 {background-color: #f2f2f2;height: 10vw;width: 10vw;margin-top: 1vw;border-radius: 5vw;}
 .img2 {margin-top: 2.6vw;margin-left: 2.7vw;position: relative;height: 5vw;width: 5vw;}
 .row{ --bs-gutter-x: 0rem;}
@@ -14,7 +14,7 @@
 }
 .be-25{
     font-size: -webkit-xxx-large;
-    color: rgba(255, 102, 0, 0.979);
+    color: #00394D;
     text-align: center;
 }
 
