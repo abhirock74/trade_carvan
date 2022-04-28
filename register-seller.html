@@ -373,7 +373,7 @@
                                         style="background-color: #a6cecc;" onclick="register()">Next</button>
                                 </div>
 
-                                <p class="text-center text-muted mt-5 mb-4 mb-0">Have already an account? <a
+                                <p class="text-center text-muted mt-5 mb-4 mb-0" id="alreadyaccount"><span>Have already an account?</span><a
                                         href="./signin.html" class="fw-bold text-body"><u>Login here</u></a></p>
 
                                 </form>
@@ -604,6 +604,7 @@
         document.getElementById('n1').innerHTML = "&#x2713;";
         document.getElementById('next-page').style.display = "none";
         document.getElementById('next-page3').style.display = "block";
+        document.getElementById('alreadyaccount').style.display = "none";
     };
     function register() {
         document.getElementById('profile').style.display = "none";
@@ -611,6 +612,7 @@
         document.getElementById('document').style.display = "block";
         document.getElementById('next-page3').style.display = "none";
         document.getElementById('n2').innerHTML = "&#x2713;";
+        document.getElementById('alreadyaccount').style.display = "none";
     };
     function step4() {
         document.getElementById('profile').style.display = "none";
@@ -618,9 +620,11 @@
         document.getElementById('document').style.display = "none";
         document.getElementById('product').style.display = "block";
         document.getElementById('n3').innerHTML = "&#x2713;";
+        document.getElementById('alreadyaccount').style.display = "none";
     }
     function verify() {
         document.getElementById('n4').innerHTML = "&#x2713;";
+        document.getElementById('alreadyaccount').style.display = "none";
     }
     function enable() {
         var check = document.getElementById('check-btn');

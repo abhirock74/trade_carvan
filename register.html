@@ -242,7 +242,8 @@
                     onclick="register()">Next</button>
                   </div>
 
-                <p class="text-center text-muted mt-5 mb-4 mb-0">Have already an account? <a href="./signin.html"
+                <p class="text-center text-muted mt-5 mb-4 mb-0" id="alreadyaccount"><span>Have already an account?</span><a
+                    href="./signin.html"
                     class="fw-bold text-body"><u>Login here</u></a></p>
 
                 </form>
@@ -472,6 +473,7 @@
     document.getElementById('n1').innerHTML = "&#x2713;";
     document.getElementById('next-page').style.display = "none";
     document.getElementById('next-page3').style.display = "block";
+    document.getElementById('alreadyaccount').style.display = "none";
     };
     function register() {
       document.getElementById('profile').style.display = "none";
@@ -479,6 +481,7 @@
       document.getElementById('document').style.display = "block";
       document.getElementById('next-page3').innerHTML = "VERITY";
       document.getElementById('n2').innerHTML = "&#x2713;";
+      document.getElementById('alreadyaccount').style.display = "none";
     };
       function enable() {
         var check = document.getElementById('check-btn');
