@@ -14,7 +14,7 @@
 /* our payment */
 .our-payment-link-1 {width: auto;height: auto;text-align: center;padding: 1vw 2vw 1vw 2vw;border-top: solid 1px rgba(128, 128, 128, 0.692);border-left: solid 1px rgba(128, 128, 128, 0.692);
 border-right: solid 1px rgba(128, 128, 128, 0.692);border-radius: 5px;}
-.main-payment{margin-left: 33%; z-index: 1;}
+.main-payment{margin-left: 33%; }
 .box-paira{font-size: 14px;}
 .our-payment-link {
     width: auto;
@@ -42,7 +42,7 @@ border-right: solid 1px rgba(128, 128, 128, 0.692);border-radius: 5px;}
 @media (max-width:768px){.be-26{ font-size: 2rem;} .box2{width: 19vw; height: 19vw;}.img2{width: 12vw; height: 13vw; margin: 4vw;} .food{margin-left: 33%;}}
 @media (max-width:640px){ .main-payment{margin-left: 20%;} .be-seller-btn{margin-left: 24%; width: 46%;} .be-25{text-align: center;} .be-26{text-align: center;}}
 @media (max-width:600px){ .main-payment{margin-left: 16%;} .img{width: 100%;} .payment-div{width: 100%;}}
-@media (max-width:575px){ .box2{width: 30vw; height: 30vw;} .img2{width: 21vw; height: 20vw; margin: 5.5vw;}}
+@media (max-width:575px){ .box2{width: 30vw; height: 30vw;} .img2{width: 21vw; height: 20vw; margin: 5.5vw;} .be-25{ margin-left: 0px;}.be-26{ margin-left: 0px;}.border-start{border-left: none !important;}}
 @media (max-width:490px){ .main-payment{margin-left: 10%;}.be-but{width: 56%; margin-left: 23% !important;}}
 @media (max-width:450px){ .main-payment{margin-left: 6%;} .be-seller-btn{margin-left: 18%; width: 66%;}}
 @media (max-width:418px){.main-payment{margin-left: 4%;}}
