@@ -1534,9 +1534,14 @@ a.ui-button:active,
 .category-large li {
 	width: 173px !important;
 }
+@media screen and (min-width: 1100px) {
+	.top-brand-padd {
+		padding: 16px 10px !important;
+	}
+}
 
 #popupBox {
-	position: absolute;
+	position: fixed;
 	background: rgba(255, 255, 255, .6);
 	z-index: 1001;
 	width: 100%;
