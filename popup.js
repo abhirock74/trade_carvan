@@ -38,14 +38,15 @@ counters.forEach((counter) => {
 
 // pop up form step one
  var nextB = document.getElementById('btn').style.backgroundColor="rgb(206, 212, 218)"
-document.getElementById('step1').style.opacity = "0.5";
+// document.getElementById('step1').style.opacity = "0.5";
 function buy() {
   var buyBox = document.getElementById('buy-popup');
   var sellBox = document.getElementById('sell-popup');
   var nextB = document.getElementById('btn').removeAttribute('disabled');
   buyBox.style.border = "1px solid #ffc107"
   sellBox.style.border = ""
-  document.getElementById('step1').style.opacity = "1";
+  buyBox.style.opacity = "1";
+  sellBox.style.opacity = "0.5";
   document.getElementById('btn').style.backgroundColor="#ffcc00"
 }
 function sell() {
@@ -54,7 +55,8 @@ function sell() {
   var buyBox = document.getElementById('buy-popup');
   sellBox.style.border = "1px solid #ffc107"
   buyBox.style.border = ""
-  document.getElementById('step1').style.opacity = "1";
+  sellBox.style.opacity = "1";
+  buyBox.style.opacity = "0.5";
 }
 // step 2 condition
 
