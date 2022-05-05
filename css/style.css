@@ -1566,9 +1566,11 @@ a.ui-button:active,
 	border-radius: 5px;
 }
 
-.sub-catag:hover {
+/* .sub-catag:hover {
 	border-color: orangered;
 }
+
+*/
 
 .closebtn {
 	position: relative;

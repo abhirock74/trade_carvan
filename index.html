@@ -34,7 +34,7 @@
           <p class="pt-2" style="margin-left: 5%;">Step <span id="text2">1</span> of 2 <button class="closebtn btn"
               onClick="PopUp()">&#10060;</button>
           </p>
-          <h5 style="font-size: 18px;" class="p-ms-3 font-weight-bold" id="welcome">Welcome! would you like to buy or
+          <h5 style="font-size: 16px;" class="p-ms-3 font-weight-bold my-2" id="welcome">Welcome! would you like to buy or
             sell
             at
             Tradeling?</h5>
@@ -45,12 +45,12 @@
             <p id="subDetail">I want to:</p>
             <div id="step1">
               <div class="d-flex">
-                <div class="p-2 sub-catag first-popUp">
+                <div class="p-2 sub-catag first-popUp" id="buy-popup" onclick="buy()">
                   <img src="./images/suvaidyam/cart-shopping-solid.svg" height="25px" alt="shopping"
                     class="img-pop-svg-1 mt-4">
                   <p class="text-center">Buy</p>
                 </div>
-                <div class="p-2 sub-catag first-popUp mx-3">
+                <div class="p-2 sub-catag first-popUp mx-3" id="sell-popup" onclick="sell()">
                   <img src="./images/suvaidyam/sell.svg" height="35px" alt="sell" class="img-pop-svg-1">
                   <p class="text-center">Sell</p>
                 </div>
@@ -99,7 +99,7 @@
                   <img src="./images/suvaidyam/car.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
                   <p class="text-center">Automotive</p>
                 </div>
-                <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1">
+                <!-- <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1">
                   <img src="./images/suvaidyam/toy.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
                   <p class="text-center">Toys</p>
                 </div>
@@ -118,11 +118,11 @@
                 <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1">
                   <img src="./images/suvaidyam/design.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
                   <p class="text-center">Design</p>
+                </div> -->
                 </div>
                 </div>
                 </div>
-                </div>
-                <button class="btn btn-color bg-warning" id="btn" onclick="step2()">NEXT</button>
+                <button class="btn btn-color" id="btn" onclick="step2()" disabled="true">NEXT</button>
           </div>
         </div>
       </div>

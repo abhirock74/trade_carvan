@@ -1,7 +1,9 @@
-    // POP UP FORM 
+    // POP UP FORM
+    // document.body.style.position = "fixed";
     function PopUp ()
     {
-      document.getElementById( 'popupBox' ).style.display = "none";
+      document.getElementById('popupBox').style.display = "none";
+      document.body.style.position = "static";
    };
   function step2(){
       document.getElementById('text2').innerHTML="2";
@@ -33,3 +35,27 @@ counters.forEach((counter) => {
   };
   updateCount();
 });
+
+// pop up form step one
+ var nextB = document.getElementById('btn').style.backgroundColor="rgb(206, 212, 218)"
+document.getElementById('step1').style.opacity = "0.5";
+function buy() {
+  var buyBox = document.getElementById('buy-popup');
+  var sellBox = document.getElementById('sell-popup');
+  var nextB = document.getElementById('btn').removeAttribute('disabled');
+  buyBox.style.border = "1px solid #ffc107"
+  sellBox.style.border = ""
+  document.getElementById('step1').style.opacity = "1";
+  document.getElementById('btn').style.backgroundColor="#ffcc00"
+}
+function sell() {
+  var sellBox = document.getElementById('sell-popup');
+  var nextB = document.getElementById('btn').removeAttribute('disabled');
+  var buyBox = document.getElementById('buy-popup');
+  sellBox.style.border = "1px solid #ffc107"
+  buyBox.style.border = ""
+  document.getElementById('step1').style.opacity = "1";
+}
+// step 2 condition
+
+
