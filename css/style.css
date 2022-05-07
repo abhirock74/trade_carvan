@@ -1603,8 +1603,9 @@ a.ui-button:active,
 	margin-left: 10% !important;
 }
 .btn-color {
-	margin: 5% 10%;
+	
 	width: 80%;
+	margin-left: 10%;
 }
 
 .img-pop-svg {
@@ -1752,26 +1753,75 @@ ul {
 .h2font {
 	margin-left: 1vw;
 }
+@media screen and (max-width: 1140px) {
+     .step1-box{
+		 margin-left: 17%;
+	 }
+}
 @media screen and (max-width: 1060px) {
 	.form {
 		width: 60%;
 		margin-left: 20%;
 	}
+	.step1-box{
+		margin-left: 12%;
+	}
 }
 
+@media screen and (max-width: 900px) {
+	.step1-box{
+		margin-left: 8%;
+	}
+	
+
+}
+@media screen and (max-width: 769px) {
+	.step1-box{
+		margin-left: 20%;
+	}
+	#popup{
+		margin: 10% 18%;
+	}
+	.scroll-pop{
+		width: 100%;
+		max-height: 460px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	
+
+}
 @media screen and (max-width: 720px) {
 	.form {
 		width: 82%;
 		margin-left: 9%;
 	}
+	.step1-box{
+		margin-left: 16%;
+	}
 
+}
+@media screen and (max-width: 700px) {
+	
 }
 
 @media screen and (max-width: 590px) {
 	.pop-arrow {
 		margin-left: -13%;
 	}
+	.step1-box{
+		margin-left: 9%;
+	}
+	
 
+}
+	
+@media screen and (max-width: 550px){
+		
+	   #sm-pop {
+		 margin-left: 6%;
+              
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -1783,13 +1833,20 @@ ul {
 	.pop-arrow {
 		margin-left: -5%;
 	}
+	.step1-box{
+		margin-left: 18%;
+	}
+	#popup{
+		margin: 10% 6%;
+	}
 }
 /* pop up window responsive code  */
-@media screen and (max-width: 550px) {
-	/* #step1 {
-		margin-left: 15%;
-	} */
+@media screen and (max-width: 470px) {
+     .step1-box{
+		 margin-left: 14%;
+	 }
 }
+
 @media screen and (max-width: 440px) {
 	/* #step1 {
 		margin-left: 5%;
@@ -1800,35 +1857,13 @@ ul {
 	.select-site{
 		margin-left: -35px;
 	}
+	.step1-box{
+		margin-left: 10%;
+	}
 }
-
-@media screen and (max-width: 580px) {
-	#step2 {
-		margin: 0 5%;
+@media screen and (max-width: 400px) {
+	.step1-box{
+		margin-left: 7%;
 	}
 }
 
-@media screen and (max-width: 700px) {
-	#step2 {
-		margin: 0 -5%;
-	}
-}
-	
-@media screen and (max-width: 529px) {
-		#step2 {
-			margin: 0 10%;
-		}
-			#sm-pop {
-				margin-left: -11%;
-    width: 100%;
-    overflow: auto;
-    max-height: 444px;
-			}
-}
-
-@media screen and (max-width: 768px) {
-		#popup {
-			margin: 35% 4%;
-			}
-			
-}
