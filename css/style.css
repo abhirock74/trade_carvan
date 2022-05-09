@@ -1753,6 +1753,16 @@ ul {
 .h2font {
 	margin-left: 1vw;
 }
+/* form  */
+.form-control{
+	font-size: 15px;
+}
+.form-label{
+	font-size: 13px;
+}
+.register-head{
+	font-size: 15px;
+}
 @media screen and (max-width: 1140px) {
      .step1-box{
 		 margin-left: 17%;
@@ -1818,9 +1828,12 @@ ul {
 	
 @media screen and (max-width: 550px){
 		
-	   #sm-pop {
-		 margin-left: 6%;
+#sm-pop {
+ margin-left: 6%;
               
+}
+#popupBox{
+	margin-top: 50px;
 }
 }
 
@@ -1860,6 +1873,7 @@ ul {
 	.step1-box{
 		margin-left: 10%;
 	}
+	
 }
 @media screen and (max-width: 400px) {
 	.step1-box{
