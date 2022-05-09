@@ -1760,6 +1760,9 @@ ul {
 .form-label{
 	font-size: 13px;
 }
+.top-brand-slid{
+	width: 13.5vw !important;
+}
 .register-head{
 	font-size: 15px;
 }
@@ -1794,7 +1797,7 @@ ul {
 	}
 	.scroll-pop{
 		width: 100%;
-		max-height: 460px;
+		max-height: 470px;
 		overflow-y: auto;
 		overflow-x: hidden;
 	}
