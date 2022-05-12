@@ -222,11 +222,12 @@ p {
 	margin: 0 -1px;
 }
 .menu-tab .na li a {
-	text-align: center;
 	height: 44px;
 	border: 1px solid #e6e6e6;
 	background: #f0f0f0;
 	font-weight: 550;
+	color: #000;
+	opacity: 0.7;
 	font-size: var(--form-font);
 	border-top: none;
 	letter-spacing: 0.5px;
