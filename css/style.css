@@ -221,13 +221,12 @@ p {
 	width: calc(50% + 2px);
 	margin: 0 -1px;
 }
-.menu-tab .nav li a {
+.menu-tab .na li a {
 	text-align: center;
 	height: 44px;
 	border: 1px solid #e6e6e6;
 	background: #f0f0f0;
-	color: #959595;
-	font-weight: 500;
+	font-weight: 550;
 	font-size: var(--form-font);
 	border-top: none;
 	letter-spacing: 0.5px;
