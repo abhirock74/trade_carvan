@@ -76,7 +76,7 @@ function second1() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -91,7 +91,7 @@ function second2() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -106,7 +106,7 @@ function second3() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -121,7 +121,7 @@ function second4() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -136,7 +136,7 @@ function second5() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -151,7 +151,7 @@ function second6() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -166,7 +166,7 @@ function second7() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -181,7 +181,7 @@ function second8() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -196,7 +196,7 @@ function second9() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }
@@ -211,7 +211,7 @@ function second10() {
   if (bt.disabled = !a) {
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
-    bt.style.backgroundColor = "yellow";
+    bt.style.backgroundColor = "#ffc107";
   }
 
 }

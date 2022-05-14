@@ -1626,8 +1626,8 @@ a.ui-button:active,
 	font-size: 25px;
 }
 .col-0 {
-	border: 2px solid yellow !important;
-	color: yellow;
+	border: 2px solid #ffc107 !important;
+	color: #ffc107;
 }
 .pa-5 {
 	padding: 12% !important;
