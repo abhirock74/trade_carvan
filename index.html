@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c22b85cab0.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -46,12 +47,11 @@
         <div id="step1">
           <div class="d-flex step1-box">
             <div class="p-2 sub-catag first-popUp" id="buy-popup" onclick="buy()" style="opacity: 0.5;">
-              <img src="./images/suvaidyam/cart-shopping-solid.svg" height="25px" alt="shopping"
-                class="img-pop-svg-1 mt-4">
+              <i class="fa-solid fa-cart-shopping img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Buy</p>
             </div>
             <div class="p-2 sub-catag first-popUp mx-3" id="sell-popup" onclick="sell()" style="opacity: 0.5;">
-              <img src="./images/suvaidyam/sell.svg" height="35px" alt="sell" class="img-pop-svg-1">
+              <i class="fa-solid fa-hand-holding-dollar img-pop-svg-1 mt-4" id="stepslect2" height="25px" alt="shopping"></i>
               <p class="text-center">Sell</p>
             </div>
           </div>
@@ -60,54 +60,44 @@
            <div id="step2" class="container col-sm-12">
           
             <div class="row mar-left" id="sm-pop">
-              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second1" onclick=" second1()"
-                ondblclick="dsecond1()">
-                <img src="./images/suvaidyam/pen.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second1">
+                <i class="fa-solid fa-briefcase img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
                 <p class="text-center">Office & Stationery</p>
               </div>
-              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second2" onclick="second2()"
-                ondblclick="dsecond2()">
-                <img src="./images/suvaidyam/mobile.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second2">
+                <i class="fa-solid fa-bolt img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
                 <p class="text-center">Electronics</p>
               </div>
-              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second3" onclick="second3()"
-                ondblclick="dsecond3()">
-                <img src="./images/suvaidyam/furniture.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+              <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second3">
+                <i class="fa-solid fa-chair img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
                 <p class="text-center">Furniture</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second4" onclick="second4()"
-              ondblclick="dsecond4()">
-              <img src="./images/suvaidyam/shirt.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second4">
+              <i class="fa-solid fa-shirt img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Fashion</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second5" onclick="second5()"
-              ondblclick="dsecond5()">
-              <img src="./images/suvaidyam/medkit.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second5">
+              <i class="fa-solid fa-briefcase-medical img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Health & Care</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second6" onclick="second6()"
-              ondblclick="dsecond6()">
-              <img src="./images/suvaidyam/hardware.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second6">
+              <i class="fa-solid fa-microchip img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Hardware</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second7" onclick="second7()"
-              ondblclick="dsecond7()">
-              <img src="./images/suvaidyam/beauty.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second7">
+              <i class="fa-solid fa-child-dress img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Beauty & Fragrances</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second8" onclick="second8()"
-              ondblclick="dsecond8()">
-              <img src="./images/suvaidyam/sports.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second8">
+              <i class="fa-solid fa-dumbbell img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Sports & Fitness</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second9" onclick="second9()"
-              ondblclick="dsecond9()">
-              <img src="./images/suvaidyam/food.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second9">
+              <i class="fa-solid fa-bowl-food img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Food & Beverage</p>
             </div>
-            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second10" onclick="second10()"
-              ondblclick="dsecond10()">
-              <img src="./images/suvaidyam/car.svg" height="25px" alt="shopping" class="img-pop-svg mt-4">
+            <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1" id="second10">
+              <i class="fa-solid fa-bus img-pop-svg-1 mt-4" id="stepslect" height="25px" alt="shopping"></i>
               <p class="text-center">Automotive</p>
             </div>
             <!-- <div class="p-2 sub-catag first-popUp col-sm-3 col-md-2 mx-1 my-1">
@@ -131,7 +121,7 @@
               <p class="text-center">Design</p>
             </div> -->
             </div>
-            <button class="btn btn-color border my-5" id="btn2" disabled="true">CONFIRM</button>
+            <button class="btn btn-color border my-5" id="btn2">CONFIRM</button>
             </div>
             </div>
             </div>
