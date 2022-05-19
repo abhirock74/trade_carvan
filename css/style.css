@@ -53,7 +53,14 @@ p {
 .font-col p {
 	letter-spacing: 0.5px;
 }
-
+.be-supplier{
+	border-radius: 7px;
+	border: 1px solid rgb(255, 204, 0);
+}
+.top-slide{
+	padding-left: 7px;
+	padding-right: 7px;
+}
 .font-col p a {
 	font-size: var(--para-font);
 	color: #000;
@@ -92,7 +99,7 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 135px;
+	min-width: 270px;
 }
 
 .wish-cart-box li a {
@@ -113,26 +120,28 @@ p {
 
 .header-search {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 850px;
 	padding: 0 15px;
 }
 
 .header-search form {
 	display: flex;
 	border: 1px solid #ffcc00;
-	height: 48px;
+	height: 45px;
 	border-radius: 6px;
 	overflow: hidden;
 	align-items: center;
 	background: #fff;
 }
-
+.tab-arrow{
+	width: 2.5%;
+}
 .header-search form select {
 	font-size: var(--form-font);
 	border-radius: 0;
 	border: none;
 	padding: 0 45px 0 20px;
-	min-width: 210px;
+	min-width: auto !important;
 	appearance: none;
 	background: url(../images/down.png) no-repeat right 17px center;
 	border-right: 1px solid #e1e1e1;
@@ -166,8 +175,7 @@ p {
 .menu-banner .container-fluid {
 	overflow: visible;
 }
-
-.banner-slider .bx-controls-direction {
+-slider .bx-controls-direction {
 	display: none;
 }
 
@@ -240,7 +248,9 @@ p {
 }
 
 .slide-side{
-	max-height: 347px;
+	height: 354px;
+	border: 1px solid gainsboro;
+	margin-top: -12px;
 }
 .menu-tab .tab-pane {
 	padding: 4px 0;
@@ -290,6 +300,7 @@ p {
 	display: none;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	height: 388px;
 }
 
 .tab-pane-ul>li:hover>.tab-child {
@@ -397,6 +408,7 @@ p {
 
 .banner {
 	width: 100%;
+	height: auto !important;
 }
 
 .line-heading {
@@ -412,6 +424,11 @@ p {
 	font-weight: 500;
 	position: relative;
 	margin-bottom: 12px;
+	border: 1px solid gainsboro;
+	padding: 6px 3px 8px 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom: none;
 }
 
 .line-heading:before {
