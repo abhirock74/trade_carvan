@@ -95,7 +95,7 @@ p {
 
 .logo {
 	display: inline-block;
-	min-width: 280px;
+	min-width: 180px;
 }
 .logo-img{
 	width: 70%;
@@ -103,7 +103,7 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 296px;
+	min-width: 270px;
 }
 
 .wish-cart-box li a {
@@ -125,7 +125,7 @@ p {
 .header-search {
 	width: 100%;
 	max-width: 900px;
-	padding: 0 50px;
+	padding: 0 12px 0 0;
 }
 
 .header-search form {
@@ -162,9 +162,9 @@ p {
 .header-search form button {
 	border: none;
 	background: transparent;
-	width: 55px;
+	width: 130px;
 	border-left: 1px solid #e1e1e1;
-	height: 32px;
+	height: 46px;
 }
 
 .header,
@@ -577,7 +577,6 @@ p {
 	position: relative;
 }
 .banner-slider-10{
-	
 	margin-left: -20px;
 	margin-right: -20px;
 }
