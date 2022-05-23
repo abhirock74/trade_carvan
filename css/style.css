@@ -1813,6 +1813,15 @@ ul {
 .register-head{
 	font-size: 15px;
 }
+.banner-slider-10,.bx-viewport{
+	height: 387.312px !important;
+}
+.banner-img{
+	height: 387px !important;
+} 
+.icon-img{
+	width: 25px;
+}
 @media screen and (max-width: 1140px) {
      .step1-box{
 		 margin-left: 17%;
@@ -1851,6 +1860,13 @@ ul {
 		overflow-y: auto;
 		overflow-x: hidden;
 	}
+	.banner-slider-10,.bx-viewport{
+		height: auto !important;
+	}
+   .banner-img {
+    height: auto !important;
+}
+
 	
 
 }
@@ -1936,21 +1952,4 @@ ul {
 		width: 132px;
 		margin-left: -25%;
 	}
-}
-
-/* .slider{
-	width: 100%  !important;
-	height: 100%;
-    position: relative !important;
-    transition-duration: 0s !important;
-	transform: none !important;
-}
-.banner-custom{
-	height: 420px !important;
-}
-.banner-img{
-	height: 100%;
-} */
-.icon-img{
-	width: 25px;
 }
