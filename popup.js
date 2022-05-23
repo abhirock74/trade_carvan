@@ -215,3 +215,15 @@ function second10() {
   }
 
 }
+
+
+// login form
+
+function login() {
+  document.getElementById("login-form").style.display="block"
+
+}
+function logPop(){
+  document.getElementById("login-form").style.display="none"
+  
+}

@@ -139,17 +139,73 @@
       </div>
     </div>
   </div>
+<!-- login -->
+<section class="h-100 gradient-form" style="background-color: #eee;" id="log-close">
+  <div class="container-fluid py-5 h-100"  id="login-form">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-6">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-4 bg-warning">
+              <div class="text-white px-4">
+                <h4 class="mt-5 mb-3">Login</h4>
+                <p class="">Get access to your Orders, Wishlist and Recommendations</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <button class="float-right" onclick="logPop()">&#10060;</button>
+              <div class="card-body p-md-5 mx-md-4">
+                
+                <form>
+                 
+                  <div class="form-outline mb-4">
+                    <label class="form-label" >Enter Email/Mobile Number</label>
+                    <input type="email" class="form-control"
+                      placeholder="Phone number or email address" />
+                  </div>
 
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example22">Password</label>
+                    <input type="password" class="form-control" placeholder="Enter Number"/>
+                    <a class="text-muted" href="#!">Forgot password?</a>
+                  </div>
+
+                  <div class="text-center pt-1 mb-5 pb-1">
+                    <button class="btn btn-warning btn-block fa-lg gradient-custom-2 mb-3 py-4" type="button">Log
+                      in</button>
+                      <p class="text-center mb-3">or</p>
+                    <button class="btn border btn-block fa-lg gradient-custom-2 mb-3 py-4" type="button">Request OTP</button>
+                   
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center">
+                    <p class=" me-2 "><a href="#" class="text-warning">New to Trade Cravan? Create an account</a></p>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  -->
 
   <section class="before-header">
     <div class="container-fluid">
       <div class="before-header-row flex-box space-between item-center">
         <div class="before-header-col font-col">
-          <p>FONT SIZE <a href="javascript:void(0)">-A</a> <a href="javascript:void(0)">A</a> <a
+          <p >FONT SIZE <a  href="javascript:void(0)">-A</a> <a href="javascript:void(0)">A</a> <a
               href="javascript:void(0)">A+</a></p>
         </div>
         <div class="before-header-col">
           <ul class="list-unstyled before-header-ul">
+            <li>
+              <a href="./become a seller/be-seller.html"style=" color: #000;">BE A SUPPLIER</a>
+            </li>
             <li> <a><img src="./images/suvaidyam/user-solid.svg" style="height: 10px;" alt="">
                 REGISTER / SIGN
                 IN</a>
@@ -199,18 +255,20 @@
           </form>
         </div>
         <ul class="list-unstyled wish-cart-box flex-box space-between item-center">
-          <button type="button" class=" btn btn-sm btn-outline-warning"> <a href="./become a seller/be-seller.html"
-              style=" color: #000;">BE A SUPPLIER</a></button>
           <li>
             <a href="javascript:void(0)">
-              <img src="images/wishlist.png" alt="wishlist">
-              <span>WISHLIST</span>
+              <img class="shop-icon" src="images/heart.png" alt="wishlist">
+             
             </a>
           </li>
           <li>
             <a href="javascript:void(0)">
-              <img src="images/cart.png" alt="cart">
-              <span>CART</span>
+              <img class="shop-icon" src="images/cart1.png" alt="cart">          
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" onclick="login()">
+              <img  class="shop-icon" src="./images/suvaidyam-icon/profile.png" alt="profile">          
             </a>
           </li>
         </ul>
@@ -1329,7 +1387,7 @@
         <div class="col col-329 ">
           <h2 class="line-heading-1"><span>@ On Going Bids</span> <a href="javascript:void(0)" class="view-all-btn">View
               All ></a></h2>
-          <div class='marquee-with-options slide-side'>
+          <div class='marquee-with-options slide-side' style="width: 100%;">
             <div class="top-buyer-wrap top-buyer-row flex-box space-between item-center">
               <div class="top-buyer-col">
                 <div class="remaning-time">

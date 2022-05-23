@@ -108,7 +108,10 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 270px;
+	min-width: 130px;
+}
+.shop-icon{
+	width: 31px;
 }
 
 .wish-cart-box li a {
@@ -129,10 +132,20 @@ p {
 
 .header-search {
 	width: 100%;
-	max-width: 900px;
-	padding: 0 12px 0 0;
+	max-width: 1050px;
+	padding: 0 135px 0 0;
 }
-
+.log-form{
+	display: block !important;
+}
+.log-close{
+	display: none;
+}
+#login-form{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
 .header-search form {
 	display: flex;
 	border: 1px solid #ffcc00;
@@ -225,8 +238,8 @@ p {
 }
 
 .col-329 {
-	max-width: 300px;
-	min-width: 300px;
+	max-width: 20%;
+	min-width: 20%;
 }
 
 .menu-tab {
@@ -1814,6 +1827,7 @@ ul {
 	font-size: 15px;
 }
 .banner-slider-10,.bx-viewport{
+	width: 60%;
 	height: 387.312px !important;
 }
 .banner-img{
