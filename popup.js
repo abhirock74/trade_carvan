@@ -217,7 +217,7 @@ function second10() {
 }
 
 
-// login form
+// login
 
 function login() {
   document.getElementById("login-form").style.display="block"

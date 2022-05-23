@@ -108,7 +108,8 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 130px;
+	min-width: 180px;
+    padding-right: 33px;
 }
 .shop-icon{
 	width: 31px;
@@ -132,8 +133,8 @@ p {
 
 .header-search {
 	width: 100%;
-	max-width: 1050px;
-	padding: 0 135px 0 0;
+	max-width: 1000px;
+	padding-right: 100px;
 }
 .log-form{
 	display: block !important;
@@ -145,6 +146,7 @@ p {
 	display: none;
 	position: absolute;
 	z-index: 1;
+	margin-top: 20px;
 }
 .header-search form {
 	display: flex;
@@ -1578,7 +1580,8 @@ a.ui-button:active,
 		min-width: 100%;
 	}
 	.wish-cart-box {
-		min-width: 228px;
+		min-width: 165px;
+		padding-right: 33px;
 	}
 	.menu-tab {
 		margin-bottom: 20px;
