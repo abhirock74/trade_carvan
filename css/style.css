@@ -110,8 +110,8 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 180px;
-    padding-right: 33px;
+	min-width: 256px;
+    padding-right: 120px;
 }
 .shop-icon{
 	width: 31px;
@@ -135,8 +135,13 @@ p {
 
 .header-search {
 	width: 100%;
-	max-width: 1000px;
-	padding-right: 100px;
+	max-width: 910px;
+	padding-right: 9px;
+}
+.first-banner{
+	background: url(../images/suvaidyam/loginbanner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .log-form{
 	display: block !important;
