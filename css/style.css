@@ -32,7 +32,9 @@ p {
 	border-bottom: 1px solid #e8e8e8;
 	border-top: 1px solid #e8e8e8;
 }
-
+.sign-font{
+	font-weight: 450;
+}
 .flex-box {
 	display: flex;
 }
@@ -1882,6 +1884,9 @@ ul {
 	}
    .banner-img {
     height: auto !important;
+}
+.sign-font{
+	font-size: var(--small-font);
 }
 
 	

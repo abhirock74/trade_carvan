@@ -227,3 +227,6 @@ function logPop(){
   document.getElementById("login-form").style.display="none"
   
 }
+function hidesign(){
+  document.getElementById('sign').style.display = "none";
+}
