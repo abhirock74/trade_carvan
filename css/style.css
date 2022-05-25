@@ -115,7 +115,7 @@ p {
 }
 .buy-box {
 	min-width: 20%;
-    padding-right: 102px;
+    padding-right: 50px;
 }
 .shop-icon{
 	width: 31px;
@@ -325,9 +325,9 @@ p {
 
 .tab-child {
 	position: absolute;
-	left: 288px;
+	left: 19%;
 	top: 0;
-	right: 329px;
+	right: 20%;
 	padding: 20px;
 	background: #fff;
 	border: 1px solid #e6e6e6;
