@@ -30,7 +30,7 @@ p {
 .before-header {
 	background: #f6f6f6;
 	border-bottom: 1px solid #e8e8e8;
-	border-top: 1px solid #e8e8e8;
+	/* border-top: 1px solid #e8e8e8; */
 }
 .sign-font{
 	font-weight: 450;
@@ -1979,4 +1979,11 @@ ul {
 		width: 132px;
 		margin-left: -25%;
 	}
+}
+#login-form {
+	position: fixed;
+	background: rgba(255, 255, 255, .7);
+	z-index: 1001;
+	width: 100vw;
+	margin-top: 0% !important;
 }
