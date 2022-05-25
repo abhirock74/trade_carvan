@@ -102,7 +102,7 @@ p {
 
 .logo {
 	display: inline-block;
-	max-width: 264px;
+	max-width: 20%;
 }
 .logo-img{
 	width: 70%;
@@ -110,8 +110,12 @@ p {
 }
 
 .wish-cart-box {
-	min-width: 256px;
-    padding-right: 120px;
+    padding-right: 5px;
+	margin-left: 30px;
+}
+.buy-box {
+	min-width: 20%;
+    padding-right: 102px;
 }
 .shop-icon{
 	width: 31px;
@@ -135,8 +139,8 @@ p {
 
 .header-search {
 	width: 100%;
-	max-width: 910px;
-	padding-right: 9px;
+	max-width: 60%;
+	padding-right: 3px;
 }
 .first-banner{
 	background: url(../images/suvaidyam/loginbanner.jpg);
