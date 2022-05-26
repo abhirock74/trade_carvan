@@ -229,5 +229,7 @@ function logPop(){
   
 }
 function hidesign(){
-  document.getElementById('sign').style.display = "none";
+  document.getElementById('sign').style.transitionProperty = 'height';
+  document.getElementById('sign').style.transitionDuration = '1s';
+  document.getElementById('sign').style.height = '0px';
 }

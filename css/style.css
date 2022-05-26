@@ -35,6 +35,11 @@ p {
 .sign-font{
 	font-weight: 450;
 }
+#sign{
+	height: 40px;
+	background-color: #000;
+	overflow: hidden;
+}
 .flex-box {
 	display: flex;
 }
@@ -1601,6 +1606,9 @@ a.ui-button:active,
 	.wish-cart-box {
 		margin-left: 100px;
 	}
+	#sign{
+		height: 60px;
+	}
 }
 
 @media(max-width: 560px) {
@@ -1916,9 +1924,6 @@ ul {
 .sign-font{
 	font-size: var(--small-font);
 }
-
-	
-
 }
 @media screen and (max-width: 720px) {
 	.form {
