@@ -318,6 +318,7 @@ p {
 .tab-pane-ul>li:hover>a {
 	text-decoration: none;
 	background: rgba(0, 0, 0, 0.1);
+	color: rgba(255, 0, 0, 0.677);
 }
 
 .menu-banner-row {

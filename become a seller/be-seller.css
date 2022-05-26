@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0; list-style: none; text-decoration: none;}
-.background {background-repeat: no-repeat; height: auto; background-image: url(./image/Become_a_seller_e569445b75.webp);}
+.background {background-repeat: no-repeat; height: auto; background-size: cover; background-image: url(./image/Become_a_seller_e569445b75.webp);}
 .become {position: relative;margin-left: 4vw; padding-top: 10vw; font-size: 50px;color: white;}
 .become-dwon{ position: relative; margin-left: 4vw; color: white; font-size: 20px;}
 .box2 {background-color: #f2f2f2;height: 9vw;width: 9vw;}
