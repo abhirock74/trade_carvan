@@ -256,8 +256,8 @@ p {
 }
 
 .col-329 {
-	max-width: 20%;
-	min-width: 20%;
+	max-width: 22%;
+	min-width: 22%;
 }
 
 .menu-tab {
@@ -286,11 +286,12 @@ p {
 	border: none;
 	color: #63adb7;
 }
-
-.slide-side{
-	height: 354px;
+.slide-3{
 	border: 1px solid gainsboro;
-	margin-top: -12px;
+	height: 387px !important;
+}
+.slide-3-body{
+      height: 342px;
 }
 .menu-tab .tab-pane {
 	padding: 4px 0;
@@ -331,9 +332,9 @@ p {
 
 .tab-child {
 	position: absolute;
-	left: 19%;
+	left: 21%;
 	top: 0;
-	right: 20%;
+	right: 22%;
 	padding: 20px;
 	background: #fff;
 	border: 1px solid #e6e6e6;
@@ -464,12 +465,8 @@ p {
 	letter-spacing: 0.5px;
 	font-weight: 500;
 	position: relative;
-	margin-bottom: 12px;
-	border: 1px solid gainsboro;
-	padding: 6px 3px 8px 2px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
-	border-bottom: none;
+	border-bottom:  1px solid gainsboro; 
+	padding: 9px 0px;
 }
 
 .line-heading:before {
@@ -1869,7 +1866,7 @@ ul {
 	font-size: 15px;
 }
 .banner-slider-10,.bx-viewport{
-	width: 60%;
+	width: 56%;
 	height: 387.312px !important;
 }
 .banner-img{
@@ -1877,6 +1874,18 @@ ul {
 } 
 .icon-img{
 	width: 25px;
+}
+@media screen and (min-width: 760px) {
+	.step1-box {
+		margin-left: 8%;
+	}
+
+	.top-brand-slid {
+		width: auto !important;
+		height: 200px;
+	}
+
+
 }
 @media screen and (max-width: 1140px) {
      .step1-box{
