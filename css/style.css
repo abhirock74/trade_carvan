@@ -125,7 +125,6 @@ p {
 .shop-icon{
 	width: 31px;
 }
-
 .wish-cart-box li a {
 	display: block;
 	text-align: center;
@@ -1889,6 +1888,9 @@ ul {
 	.step1-box{
 		margin-left: 12%;
 	}
+	.buy-box{
+		padding-right: 0px;
+	}
 }
 
 @media screen and (max-width: 900px) {
@@ -1900,6 +1902,11 @@ ul {
 	}
 	
 
+}
+@media screen and (max-width: 850px){
+  .buy-box{
+	  padding-right: 0px;
+  }
 }
 @media screen and (max-width: 769px) {
 	.step1-box{
@@ -1923,6 +1930,7 @@ ul {
 .sign-font{
 	font-size: var(--small-font);
 }
+}
 @media screen and (min-width: 760px) {
 	.step1-box {
 		margin-left: 8%;
@@ -1934,7 +1942,6 @@ ul {
 	}
 
 
-}
 }
 @media screen and (max-width: 720px) {
 	.form {
@@ -1969,6 +1976,9 @@ ul {
 }
 #popupBox{
 	margin-top: 50px;
+}
+.buy-box{
+	padding-right: 70px;
 }
 }
 
