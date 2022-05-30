@@ -1875,18 +1875,7 @@ ul {
 .icon-img{
 	width: 25px;
 }
-@media screen and (min-width: 760px) {
-	.step1-box {
-		margin-left: 8%;
-	}
 
-	.top-brand-slid {
-		width: auto !important;
-		height: 200px;
-	}
-
-
-}
 @media screen and (max-width: 1140px) {
      .step1-box{
 		 margin-left: 17%;
@@ -1933,6 +1922,18 @@ ul {
 }
 .sign-font{
 	font-size: var(--small-font);
+}
+@media screen and (min-width: 760px) {
+	.step1-box {
+		margin-left: 8%;
+	}
+
+	.top-brand-slid {
+		width: auto !important;
+		height: 200px;
+	}
+
+
 }
 }
 @media screen and (max-width: 720px) {
