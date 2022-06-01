@@ -43,7 +43,7 @@ function buy() {
   var buyBox = document.getElementById('buy-popup');
   var sellBox = document.getElementById('sell-popup');
   var nextB = document.getElementById('btn').removeAttribute('disabled');
-  buyBox.style.border = "1px solid #ffc107";
+  buyBox.style.border = "2px solid #ffc107";
   sellBox.style.border = "";
   buyBox.style.opacity = "1";
   sellBox.style.opacity = "0.5";
@@ -55,7 +55,7 @@ function sell() {
   var sellBox = document.getElementById('sell-popup');
   var nextB = document.getElementById('btn').removeAttribute('disabled');
   var buyBox = document.getElementById('buy-popup');
-  sellBox.style.border = "1px solid #ffc107";
+  sellBox.style.border = "2px solid #ffc107";
   buyBox.style.border = "";
   sellBox.style.opacity = "1";
   buyBox.style.opacity = "0.5";
