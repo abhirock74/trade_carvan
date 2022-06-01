@@ -1983,6 +1983,15 @@ i{
 	border: none;
 	background: transparent;
 }
+.con{
+	top: 70px;
+}
+.first{
+    opacity: 1 !important;
+    display: block;
+    z-index: 1005;
+   
+}
  @media (max-width:450px){
     .modal-body{
     padding: 10px 0px;
