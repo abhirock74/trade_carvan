@@ -1851,7 +1851,12 @@ ul {
   .buy-box{
 	  padding-right: 0px;
   }
+  .name-1{
+	overflow-y: auto;
+	height: 398px;
 }
+}
+
 
 @media screen and (max-width: 769px) {
 	.banner-slider-10,.bx-viewport{
@@ -1913,6 +1918,10 @@ ul {
 	.pop-arrow {
 		margin-left: -5%;
 	}
+	.name-1{
+		overflow-y: auto;
+		height: 430px;
+	}
 }
 /* pop up window responsive code  */
 @media screen and (max-width: 470px) {
@@ -1956,7 +1965,6 @@ i{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
 }
 .card-10{
     width: 149px;
@@ -1966,7 +1974,10 @@ i{
     justify-content: center;
 	color: grey;
 }
-
+.btn-border{
+	border: none;
+	background: transparent;
+}
  @media (max-width:450px){
     .modal-body{
     padding: 10px 0px;
