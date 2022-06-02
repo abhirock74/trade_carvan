@@ -1989,7 +1989,7 @@ i{
     opacity: 1 !important;
     display: block;
     z-index: 1005;
-   
+	background-color: rgba(128, 128, 128, 0.613);
 }
  @media (max-width:450px){
     .modal-body{
