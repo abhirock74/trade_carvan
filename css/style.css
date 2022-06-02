@@ -1852,8 +1852,8 @@ ul {
 	  padding-right: 0px;
   }
   .name-1{
-	overflow-y: auto;
-	height: 398px;
+	overflow-y: auto !important;
+	height: 440px;
 }
 }
 
@@ -1919,8 +1919,7 @@ ul {
 		margin-left: -5%;
 	}
 	.name-1{
-		overflow-y: auto;
-		height: 450px;
+		max-height: 700px;
 	}
 }
 /* pop up window responsive code  */
@@ -1995,5 +1994,8 @@ i{
  @media (max-width:450px){
     .modal-body{
     padding: 10px 0px;
+}
+.con{
+	top: 260px;
 }
 }
