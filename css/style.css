@@ -1999,3 +1999,28 @@ i{
 	top: 260px;
 }
 }
+
+@media (min-width:1670px){
+	.category-5-large li img{
+		height: 198px;
+	}
+	.category-5-large li .img{
+		height: 197px;
+	}
+}
+@media (max-width:1340px){
+	.category-5-large li img{
+		height: 147px;
+	}
+	.category-5-large li .img{
+		height: 134px;
+	}
+}
+@media screen and (max-width:1540px) and (min-width:1500px){
+	.category-5-large li img{
+		height: 179px;
+	}
+	.category-5-large li .img{
+		height: 178px;
+	}
+}
