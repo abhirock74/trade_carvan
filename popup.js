@@ -40,20 +40,31 @@ function sell() {
 
 // second step 
 
+
+// bt.disabled = !a
 document.getElementById('second1').addEventListener('click', second1);
 document.getElementById('btn2').disabled = true;
-
-function second1() {
-  document.getElementById('second1').classList.toggle('col-0');
-  let a = document.getElementById('second1').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
+var BoxCheckColor = [];
+var bt = document.getElementById('btn2');
+bt.style.backgroundColor = "rgb(206, 212, 218)";
+function checkBoder() {
+  if (BoxCheckColor.length === 0) {
+    bt.disabled = true;
     bt.style.backgroundColor = "rgb(206, 212, 218)";
   } else {
     bt.style.backgroundColor = "#ffc107";
-  }
-
+    bt.disabled = false;
+}
+}
+function second1() {
+  document.getElementById('second1').classList.toggle('col-0');
+  let a = document.getElementById('second1').classList.contains('col-0');
+  if (a= !a) {
+    BoxCheckColor.pop();
+  } else {
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second2').addEventListener('click', second2);
 document.getElementById('btn2').disabled = true;
@@ -61,14 +72,12 @@ document.getElementById('btn2').disabled = true;
 function second2() {
   document.getElementById('second2').classList.toggle('col-0');
   let a = document.getElementById('second2').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+   if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
-
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second3').addEventListener('click', second3);
 document.getElementById('btn2').disabled = true;
@@ -76,13 +85,12 @@ document.getElementById('btn2').disabled = true;
 function second3() {
   document.getElementById('second3').classList.toggle('col-0');
   let a = document.getElementById('second3').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+  if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 
 }
 document.getElementById('second4').addEventListener('click', second4);
@@ -91,14 +99,12 @@ document.getElementById('btn2').disabled = true;
 function second4() {
   document.getElementById('second4').classList.toggle('col-0');
   let a = document.getElementById('second4').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
-
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second5').addEventListener('click', second5);
 document.getElementById('btn2').disabled = true;
@@ -106,14 +112,12 @@ document.getElementById('btn2').disabled = true;
 function second5() {
   document.getElementById('second5').classList.toggle('col-0');
   let a = document.getElementById('second5').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
-
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second6').addEventListener('click', second6);
 document.getElementById('btn2').disabled = true;
@@ -121,13 +125,12 @@ document.getElementById('btn2').disabled = true;
 function second6() {
   document.getElementById('second6').classList.toggle('col-0');
   let a = document.getElementById('second6').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+  if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 
 }
 document.getElementById('second7').addEventListener('click', second7);
@@ -136,14 +139,12 @@ document.getElementById('btn2').disabled = true;
 function second7() {
   document.getElementById('second7').classList.toggle('col-0');
   let a = document.getElementById('second7').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+  if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
-
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second8').addEventListener('click', second8);
 document.getElementById('btn2').disabled = true;
@@ -151,13 +152,12 @@ document.getElementById('btn2').disabled = true;
 function second8() {
   document.getElementById('second8').classList.toggle('col-0');
   let a = document.getElementById('second8').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+  if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 
 }
 document.getElementById('second9').addEventListener('click', second9);
@@ -166,14 +166,12 @@ document.getElementById('btn2').disabled = true;
 function second9() {
   document.getElementById('second9').classList.toggle('col-0');
   let a = document.getElementById('second9').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
-
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 }
 document.getElementById('second10').addEventListener('click', second10);
 document.getElementById('btn2').disabled = true;
@@ -181,13 +179,12 @@ document.getElementById('btn2').disabled = true;
 function second10() {
   document.getElementById('second10').classList.toggle('col-0');
   let a = document.getElementById('second10').classList.contains('col-0');
-  var bt = document.getElementById('btn2');
-  bt.disabled = !a
-  if (bt.disabled = !a) {
-    bt.style.backgroundColor = "rgb(206, 212, 218)";
+ if (a= !a) {
+    BoxCheckColor.pop();
   } else {
-    bt.style.backgroundColor = "#ffc107";
-  }
+    BoxCheckColor.push(["box1"]);
+  };
+  checkBoder();
 
 }
 
