@@ -2005,15 +2005,15 @@ i{
 		height: 198px;
 	}
 	.category-5-large li .img{
-		height: 197px;
+		height: 196.8px;
 	}
 }
 @media (max-width:1340px){
 	.category-5-large li img{
-		height: 147px;
+		height: 147.2px;
 	}
 	.category-5-large li .img{
-		height: 134px;
+		height: 133.7px;
 	}
 }
 @media screen and (max-width:1540px) and (min-width:1500px){
