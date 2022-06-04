@@ -1995,8 +1995,8 @@ i{
     .modal-body{
     padding: 10px 0px;
 }
-.con{
-	top: 260px;
+.con-1{
+	margin-left: 19px;
 }
 }
 
@@ -2006,6 +2006,14 @@ i{
 	}
 	.category-5-large li .img{
 		height: 196.8px;
+	}
+}
+@media (max-width:1640px){
+	.category-5-large li img{
+		height: 165px;
+	}
+	.category-5-large li .img{
+		height: 163.8px;
 	}
 }
 @media (max-width:1340px){
