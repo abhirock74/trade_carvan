@@ -1855,6 +1855,9 @@ ul {
 	overflow-y: auto !important;
 	height: 440px;
 }
+.tab-child{
+	height: auto !important;
+}
 }
 
 
