@@ -98,7 +98,7 @@ p {
 }
 .category-icon{
 	font-family:sans-serif;
-	 font-weight: 100;
+	 font-weight: 400;
 	 padding-left: 9px;
 }
 .header {
@@ -241,8 +241,8 @@ p {
 
 .banner-slider .bx-pager-link {
 	display: block;
-	width: 15px;
-	height: 15px;
+	width: 12px;
+	height: 12px;
 	font-size: 0;
 	border: 1px solid #ebebeb;
 	border-radius: 50%;
