@@ -2005,15 +2005,15 @@ i{
 
 @media (min-width:1670px){
 	.category-5-large li img{
-		height: 198px;
+		height: 197px;
 	}
 	.category-5-large li .img{
-		height: 196.8px;
+		height: 195.2px;
 	}
 }
 @media (max-width:1640px){
 	.category-5-large li img{
-		height: 165px;
+		height: 161.5px;
 	}
 	.category-5-large li .img{
 		height: 163.8px;
@@ -2021,17 +2021,17 @@ i{
 }
 @media (max-width:1340px){
 	.category-5-large li img{
-		height: 147.2px;
+		height: 149px;
 	}
 	.category-5-large li .img{
-		height: 133.7px;
+		height: 135.5px;
 	}
 }
 @media screen and (max-width:1540px) and (min-width:1500px){
 	.category-5-large li img{
-		height: 179px;
+		height: 177px;
 	}
 	.category-5-large li .img{
-		height: 178px;
+		height: 176.5px;
 	}
 }
